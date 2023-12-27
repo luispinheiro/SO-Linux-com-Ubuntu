@@ -1,4 +1,8 @@
-# LINUX PRIMEIROS PASSOS
+# LINUX PRIMEIROS PASSOS COM O TERMINAL
+
+## A história e a linha do tempo da computação
+
+## [**Tudo sobre a computação**](historia_da_computacao)
 
 ## Instalação do ZSH, OhMyZSH, NodeJS e Docker no terminal Ubuntu
 
@@ -112,18 +116,25 @@ ssh-ed25519  lepinheiro100@terra.com.br
 ### Comandos GIT nicialização local
 
 ```sh
-(14:12:15)──> git init
-hint: Using 'master' as the name for the initial branch. This default branch name
-hint: is subject to change. To configure the initial branch name to use in all
-hint: of your new repositories, which will suppress this warning, call:
-hint: 
-hint:   git config --global init.defaultBranch <name>
-hint: 
-hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
-hint: 'development'. The just-created branch can be renamed via this command:
-hint: 
-hint:   git branch -m <name>
+$ git init --initial-branch=main                                    
+Repositório vazio Git inicializado em  /home/luis/linux/linux-primeiros-passos/.git/
 ```
+
+```
+ $ git status                                                  
+No ramo main
+
+No commits yet
+
+Arquivos não monitorados:
+  (utilize "git add <arquivo>..." para incluir o que será submetido)
+        .gitignore
+        README.md
+        img/
+
+nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
+```
+
 
 ```sh
 (17:45:41 on master ✭)──> git add .
@@ -484,7 +495,8 @@ Resolving deltas: 100% (18/18), done.
 ```
 $ p10k configure
 ```
-> ### Seguir os passos da imagem abaixo e escolher a configuração desejada
+> Seguir os passos da imagem abaixo e escolher a configuração desejada, mostro minhas escolhas em cada etapa.
+
 
 ![Alt text](img/image-22.png)
 
@@ -735,7 +747,7 @@ Crtl + Shift + '(Acento agudo)
 
 > ## É possível instalar diversas versões do NODEJS com o PNPM para gereciá-las
 
-pnpmé um gerenciador de pacotes para JavaScript, semelhante ao npm(Node Package Manager) e yarn. É usado para gerenciar dependências em um projeto Node.js. No contexto de pnpm, “exe” e “cli” referem-se a diferentes aspectos de sua funcionalidade.
+pnpm é um gerenciador de pacotes para JavaScript, semelhante ao npm(Node Package Manager) e yarn. É usado para gerenciar dependências em um projeto Node.js. No contexto de pnpm, “exe” e “cli” referem-se a diferentes aspectos de sua funcionalidade.
 
 pnpm-cli: esta é a interface de linha de comando (CLI) para pnpm. Quando as pessoas se referem à pnpmCLI, geralmente estão falando sobre os comandos e opções de linha de comando que você usa para interagir com o pnpm. Por exemplo, executar comandos como "pnpm install" para instalar dependências ou "pnpm run start" para executar um script definido em seu arquivo package.json.
 
@@ -968,7 +980,7 @@ Antes de entrarmos na lista de principais comandos Linux, primeiro você precisa
 
 Embora os passos abaixo possam ser ligeiramente diferentes dependendo da distribuição que você estiver usando, você geralmente encontra a linha de comando na seção Utilities (Utilidades).
 
-### 1. Comando pwd
+#### 1. Comando pwd
 Use o comando pwd para encontrar o caminho para o diretório atual (da pasta) em que você está. O comando vai retornar um caminho completo (cheio), que é basicamente um caminho que começa com uma barra inclinada (/). Um exemplo de um caminho completo é /home/username.
 
 O comando pwd usa a seguinte sintaxe:
@@ -980,7 +992,7 @@ Ele tem duas opções aceitáveis:
 -L ou –logical imprime o conteúdo da variável de ambiente, incluindo links simbólicos.
 -P ou –physical imprime o caminho real do diretório atual.
 
-### 2. Comando cd
+#### 2. Comando cd
 Para navegar pelos arquivos e diretórios Linux, use o comando cd. Ele requer ou um caminho completo ou o nome de um diretório, dependendo do diretório atual em que você estiver.
 
 Vamos dizer que você esteja em /home/username/Documents e quer ir para Photos, um subdiretório de Documents. Para fazer isso, simplesmente digite cd Photos.
@@ -993,7 +1005,7 @@ Use cd .. (com dois pontos seguidos) para subir diretório acima
 Use cd ~[username] para acessar o diretório inicial de outro usuário.
 Use cd– (com um hífen) para mover para os diretórios anteriores.
 
-### 3. Comando ls
+#### 3. Comando ls
 O comando ls é usado para visualizar conteúdos em um diretório. Por padrão, esse comando vai mostrar os conteúdos apenas do diretório atual em que você estiver.
 
 Se você quiser ver o conteúdo de outros diretórios, digite ls e, então, o caminho do diretório. Por exemplo, digite ls /home/username/Documents para ver os conteúdos de Documents.
@@ -1146,7 +1158,7 @@ Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
 ./Vídeos
 ```
 
-### 4. Comando cat
+#### 4. Comando cat
 O cat (abreviação para concatenar) é um dos comandos Linux mais usados. Ele é usado para visualizar, criar e relacionar arquivos. Para executar esse comando, digite cat seguido pelo nome do arquivo e sua extensão. Por exemplo: cat nomedoarquivo.txt.
 
 Aqui estão outras maneiras de usar o comando cat:
@@ -1155,7 +1167,7 @@ cat > nomedoarquivo.txt cria um novo arquivo
 cat nomedoarquivo1.txt nomedoarquivo2.txt > nomedoarquivo3.txt junta dois arquivos (1 e 2) em um novo (3).
 tac nomedoarquivo.txt exibe o conteúdo do arquivo em ordem reversa.
 
-### 5. Comando cp
+#### 5. Comando cp
 Use o comando cp para copiar arquivos ou diretórios e seu conteúdo. Abaixo, listamos alguns exemplos.
 
 Para copiar um arquivo do diretório atual para outro, digite cp seguido do nome do arquivo e do diretório de destino. Por exemplo:
@@ -1174,7 +1186,7 @@ Para copiar um diretório inteiro, passe o sinalizador -R antes de digitar o dir
 
 cp -R /home/username/Documents /home/username/Documents_backup
 
-### 6. Comando mv
+#### 6. Comando mv
 O uso mais comum do comando mv é mover arquivos, mas ele também pode ser usado para renomear arquivos.
 
 Basta digitar mv seguido do nome do arquivo e do diretório de destino. Por exemplo, você deseja mover o arquivo nomedoarquivo.txt para o diretório /home/username/Documents:
@@ -1185,7 +1197,7 @@ Você também pode usar o comando mv para renomear um arquivo:
 
 mv nomedoarquivo_antigo.txt nome_novo.txt
 
-### 7. Comando mkdir
+#### 7. Comando mkdir
 Use o comando mkdir para criar um ou vários diretórios de uma só vez e definir permissões para cada um deles. O usuário que executa esse comando deve ter o privilégio de criar uma nova pasta no diretório principal, caso contrário, poderá receber um erro de permissão negada.
 
 Aqui está a sintaxe básica:
@@ -1206,14 +1218,14 @@ O comando mkdir aceita muitas opções, como:
 -m define as permissões do arquivo. Por exemplo, para criar um diretório com permissões completas de leitura, gravação e execução para todos os usuários, digite mkdir -m777 nome_do_diretório.
 -v imprime uma mensagem para cada diretório criado.
 
-### 8. Comando rmdir
+#### 8. Comando rmdir
 Para excluir permanentemente um diretório vazio, use o comando rmdir. Lembre-se de que o usuário que executa esse comando deve ter privilégios sudo no diretório pai.
 
 Por exemplo, você deseja remover um subdiretório vazio chamado personal1 e sua pasta principal mydir:
 
 rmdir -p mydir/personal1
 
-### 9. Comando rm
+#### 9. Comando rm
 O comando rm é usado para excluir arquivos em um diretório. Certifique-se de que o usuário que executa esse comando tenha permissões de gravação.
 
 Lembre-se do local do diretório, pois isso apagará o(s) arquivo(s) permanentemente e não há como desfazer a ação.
@@ -1232,19 +1244,19 @@ Aqui estão algumas opções que você pode adicionar:
 -f permite que o sistema faça a remoção sem confirmação.
 -r exclui arquivos e diretórios recursivamente.
 
-### 10. Comando touch
+#### 10. Comando touch
 O comando touch permite criar um arquivo vazio ou gerar e modificar um registro de data e hora na linha de comando do Linux.
 
 Por exemplo, digite o seguinte comando para criar um arquivo HTML chamado Web no diretório Documents:
 
 touch /home/username/Documents/Web.html
 
-### 11. Comando locate
+#### 11. Comando locate
 Você pode o comando locate para localizar um arquivo, assim como você faz para procurar um arquivo no Windows. Além disso, usando o argumento -i junto com esse comando faz com que ele se torne insensível a maiúsculas ou minúsculas, permitindo que você pesquise por um arquivo mesmo sem saber exatamente o nome dele.
 
 Para procurar um arquivo que contém duas ou mais palavras, use um asterisco (*). Por exemplo, use o comando locate -i school*note para encontrar qualquer arquivo que tenha as palavras “school” e “note”, não importando se existem letras maiúsculas ou minúsculas.
 
-### 12. Comando find
+#### 12. Comando find
 Similar ao comando locate, o comando find ajuda você a procurar por arquivos. A diferença é que você usa o find para localizar arquivos dentro de um diretório específico.
 
 Como exemplo, digite find /home/ -name notes.txt para procurar por um arquivo chamado notes.txt dentro do diretório home e seus subdiretórios.
@@ -1254,7 +1266,7 @@ Outras variações na hora de usar o find são:
 find -name nomedoarquivo.txt para localizar arquivos no diretório atual.
 find ./ -type d -name nomedodiretorio para procurar diretórios.
 
-### 13. Comando grep
+#### 13. Comando grep
 Outro comando básico do Linux que merece ser citado é o grep. Ele permite que você encontre uma palavra pesquisando todo o conteúdo de um arquivo específico.
 
 Quando o comando grep encontra uma correspondência, ele imprime todas as linhas que contêm o padrão específico. Esse comando ajuda a filtrar arquivos de registro grandes.
@@ -1265,7 +1277,7 @@ grep blue notepad.txt
 
 A saída do comando exibirá as linhas que contêm a palavra blue.
 
-### 14. Comando sudo
+#### 14. Comando sudo
 Correspondente a SuperUser Do, sudo é um dos comandos básicos mais populares do Linux. Ele permite executar tarefas que exigem permissões administrativas ou de root.
 
 Ao usar o sudo, o sistema solicitará que os usuários se autentiquem com uma senha. Em seguida, o sistema Linux registrará um registro de data e hora como um rastreador. Por padrão, todo usuário root pode executar comandos sudo por 15 minutos/sessão.
@@ -1282,7 +1294,7 @@ Você também pode adicionar uma opção, por exemplo:
 -g ou –group=group executa comandos como um nome ou ID de grupo especificado.
 -h ou –host=host executa comandos no host.
 
-### 15. Comando df
+#### 15. Comando df
 Use o comando df para obter informações sobre o uso do espaço em disco do sistema, mostrado em porcentagem e quilobyte (KB). Esta é a sintaxe geral:
 
 df [opções] [arquivo]
@@ -1297,7 +1309,7 @@ O df -m exibe informações sobre o uso do sistema de arquivos em MBs.
 df -k exibe o uso do sistema de arquivos em KBs.
 df -T mostra o tipo de sistema de arquivos em uma nova coluna.
 
-### 16. Comando du
+#### 16. Comando du
 Se você quiser verificar quanto de espaço um arquivo ou diretório ocupa, use o comando du. Você pode executar esse comando para identificar qual parte do sistema usa excessivamente o armazenamento do seu sistema.
 
 Lembre-se de que você deve especificar o caminho do diretório ao usar o comando du. Por exemplo, para verificar /home/user/Documents, digite:
@@ -1311,7 +1323,7 @@ Adicionar um sinalizador ao comando du modificará a operação, por exemplo:
 k exibe informações em KB.
 -h informa a data da última modificação das pastas e arquivos exibidos.
 
-### 17. Comando head
+#### 17. Comando head
 O comando head permite que você visualize as primeiras dez linhas de um texto. A adição de uma opção permite que você altere o número de linhas mostradas. O comando head também é usado para enviar dados canalizados para a CLI.
 
 Aqui está a sintaxe geral:
@@ -1328,7 +1340,7 @@ Abaixo estão algumas opções que você pode adicionar:
 -c ou –bytes imprime o primeiro número personalizado de bytes de cada arquivo.
 -q ou –quiet não imprimirá cabeçalhos que especifiquem o nome do arquivo.
 
-### 18. Comando tail
+#### 18. Comando tail
 O comando tail tem função similar ao comando head, mas mostrando as últimas 10 linhas de um arquivo de texto.
 
 Este é o formato geral:
@@ -1339,7 +1351,7 @@ Por exemplo, você deseja mostrar as últimas dez linhas do arquivo colors.txt:
 
 tail -n colors.txt
 
-### 19. Comando diff
+#### 19. Comando diff
 O comando diff (diferença) compara o conteúdo de dois arquivos linha por linha. Depois de analisar esses arquivos, ele vai mostrar as linhas que não são comuns entre eles.
 
 Os programadores frequentemente usam este comando quando precisam fazer pequenas alterações em programas. Assim, eles não precisam reescrever o código inteiro.
@@ -1358,7 +1370,7 @@ Aqui estão algumas opções para adicionar:
 -i torna o comando diff insensível a maiúsculas e minúsculas.
 -b ignora espaços em branco como possíveis diferenças.
 
-### 20. Comando tar
+#### 20. Comando tar
 O comando tar reúne vários arquivos em um arquivo TAR — um formato do Linux semelhante ao ZIP, com compactação opcional.
 
 Aqui está a sintaxe básica:
@@ -1375,7 +1387,7 @@ O comando tar aceita muitas opções, como:
 -t lista o conteúdo de um arquivo.
 -u arquiva e adiciona a um arquivo existente.
 
-### 21. Comando chmod
+#### 21. Comando chmod
 O chmod é um comando que modifica as permissões de leitura, gravação e execução de um arquivo ou diretório. No Linux, cada arquivo está associado a três classes de usuários: proprietário, membro do grupo e outros.
 
 Aqui está a sintaxe básica:
@@ -1392,7 +1404,7 @@ O comando chmod oferece suporte a várias opções, incluindo:
 -f ou –silent suprime as mensagens de erro.
 -v ou –verbose exibe um diagnóstico para cada arquivo processado.
 
-### 22. Comando chown
+#### 22. Comando chown
 No Linux, todos os arquivos são de propriedade de um usuário específico. O comando chown permite alterar a propriedade de um arquivo, diretório ou link simbólico para um nome de usuário específico. 
 
 Este é o formato básico:
@@ -1403,7 +1415,7 @@ Por exemplo, você deseja tornar o linuxuser2 o proprietário do arquivo filenam
 
 chown linuxuser2 filename.txt
 
-### 23. Comando jobs
+#### 23. Comando jobs
 Um job é um processo que iniciado pelo shell. O comando jobs exibirá todos os processos em execução juntamente com seus status. Lembre-se de que esse comando só está disponível nos shells csh, bash, tcsh e ksh.
 
 Essa é a sintaxe básica:
@@ -1418,7 +1430,7 @@ Aqui estão algumas opções que você pode usar:
 -n lista os processos cujos status foram alterados desde a última notificação.
 -p lista somente IDs de processos.
 
-### 24. Comando kill
+#### 24. Comando kill
 Se você tem um programa que não está respondendo bem, você pode finalizá-lo manualmente pelo comando kill. Ele vai mandar um certo sinal ao aplicativo com mau funcionamento e instruir que ele seja encerrado sozinho logo na sequência.
 
 Existe um total de 64 avisos que você pode usar, mas, geralmente, as pessoas usam apenas 2 deles:
@@ -1431,7 +1443,7 @@ Depois de saber qual aviso você quer usar e o PID do programa, use a sintaxe ab
 
 kill [signal option] PID.
 
-### 25. Comando ping
+#### 25. Comando ping
 O comando ping é um dos comandos básicos do Linux mais usados para verificar se uma rede ou um servidor está acessível. Além disso, ele é usado para solucionar vários problemas de conectividade.
 
 Este é o formato geral:
@@ -1442,7 +1454,7 @@ Por exemplo, você quer saber se pode se conectar ao Google e medir seu tempo de
 
 ping google.com
 
-### 26. Comando wget
+#### 26. Comando wget
 A linha de comando do Linux permite que você baixe arquivos da Internet usando o comando wget. Ele funciona em segundo plano, sem atrapalhar outros processos em execução.
 
 O comando wget baixa arquivos usando os protocolos HTTP, HTTPS e FTP. Ele pode executar downloads recursivos, que transferem partes de sites seguindo estruturas de diretórios e links, criando versões locais de páginas da web.
@@ -1455,7 +1467,7 @@ Por exemplo, digite o seguinte comando para baixar a versão mais recente do Wor
 
 wget https://wordpress.org/latest.zip
 
-### 27. Comando uname
+#### 27. Comando uname
 O comando uname, que significa Unix Name, vai mostrar informações detalhadas sobre seu sistema Linux. Isso inclui o nome da máquina, do sistema operacional, do kernel e assim por diante.
 
 uname [opção]
@@ -1473,10 +1485,10 @@ Essas são algumas das opções que você pode usar:
 ```
 ![Alt text](img/image-18.png)
 
-### 28. Comando top
+#### 28. Comando top
 Equivalente ao gerenciador de tarefas do Windows, o comando top vai mostrar uma lista de processos que estão em execução e o quanto de CPU cada processo usa. Ele é muito útil para monitorar o uso dos recursos do sistema, especialmente para saber qual processo deve ser encerrado por consumir muitos recursos. Basta digitar top na CLI para executá-lo.
 
-### 29. Comando history
+#### 29. Comando history
 Com o history, o sistema listará até 500 comandos executados anteriormente, permitindo que você os reutilize sem precisar digitá-los novamente. Lembre-se de que somente os usuários com privilégios sudo podem executar esse comando. A forma de execução desse comando também depende do shell do Linux que você usa.
 
 Para executá-lo, digite o comando abaixo:
@@ -1489,7 +1501,7 @@ Esse comando oferece suporte a várias opções, como:
 -d offset exclui o registro do histórico na posição OFFSET.
 -a acrescenta linhas de histórico.
 
-### 30. Comando man
+#### 30. Comando man
 O comando man fornece um manual completo para todos comandos ou utilitários que podem ser executados no Terminal, incluindo o nome, a descrição e as opções.
 
 Ele consiste em nove seções:
@@ -1519,7 +1531,7 @@ Por exemplo, você deseja ver a seção 2 do manual do comando ls:
 
 man 2 ls
 
-### 31. Comando echo
+#### 31. Comando echo
 O comando echo é um utilitário nativo que exibe uma linha de texto ou cadeia de caracteres (string) usando a saída padrão. Veja a seguir a sintaxe básica:
 
 echo [opção] [string]
@@ -1537,7 +1549,7 @@ Esse comando oferece suporte a várias opções, como:
 \c não produz mais nenhum resultado.
 -E exibe a opção padrão e desativa a interpretação dos escapes de barra invertida.
 
-### 32. Comandos zip e unzip
+#### 32. Comandos zip e unzip
 Use o comando zip para compactar seus arquivos em um arquivo ZIP, um formato universal comumente usado no Linux. Ele pode escolher automaticamente a melhor taxa de compactação. 
 
 O comando zip também é útil para arquivar arquivos e diretórios e reduzir o uso do disco.
@@ -1558,7 +1570,7 @@ Portanto, para descompactar um arquivo chamado archive.zip no diretório atual, 
 
 unzip archive.zip
 
-### 33. Comando hostname
+#### 33. Comando hostname
 Execute o comando hostname para saber o nome do host do sistema. Você pode executá-lo com ou sem uma opção. Aqui está a sintaxe geral:
 
 hostname [opção]
@@ -1572,7 +1584,7 @@ Por exemplo, digite o seguinte comando para saber o endereço IP de seu computad
 
 hostname -i
 
-### 34. Comandos useradd e userdel
+#### 34. Comandos useradd e userdel
 O Linux é um sistema multiusuário, o que significa que mais de uma pessoa pode usá-lo simultaneamente. useradd é usado para criar uma nova conta, enquanto o comando passwd permite adicionar uma senha. Somente aqueles com privilégios de root ou sudo podem executar o comando useradd. 
 
 Quando você usa o comando useradd, ele realiza algumas alterações importantes:
@@ -1598,7 +1610,7 @@ Para excluir uma conta de usuário, use o comando userdel:
 
 userdel nome_de_usuário
 
-### 35. Comando apt-get
+#### 35. Comando apt-get
 O apt-get é uma ferramenta de linha de comando para lidar com as bibliotecas da Advanced Package Tool (APT) no Linux. Ele permite que você obtenha informações e pacotes de fontes autenticadas para gerenciar, atualizar, remover e instalar softwares e suas dependências.
 
 A execução do comando apt-get exige que você tenha privilégios sudo ou root.
@@ -1613,7 +1625,7 @@ update sincroniza os arquivos de pacote de suas fontes.
 upgrade instala a versão mais recente de todos os pacotes instalados.
 check atualiza o cache de pacotes e verifica dependências quebradas.
 
-### 36. comandos nano, vi e jed ou VSCode
+#### 36. comandos nano, vi e jed ou VSCode
 O Linux permite que os usuários editem e gerenciem arquivos por meio de um editor de texto usando comandos como o nano, o vi ou o jed. O nano e o vi são nativos do sistema operacional, enquanto o jed precisa ser instalado.
 
 O comando nano denota palavras-chave e pode funcionar com a maioria dos idiomas. Para usá-lo, digite o seguinte comando:
@@ -1635,7 +1647,7 @@ code [nome do arquivo]
 
 Para abrir o programa, basta digitar jed na linha de comando.
 
-### 37. Comandos alias e unalias
+#### 37. Comandos alias e unalias
 
 O alias permite que você crie um atalho com a mesma funcionalidade de um comando, nome de arquivo ou texto. Quando executado, ele instrui o shell a substituir uma string por outra.
 
@@ -1653,7 +1665,7 @@ Veja a seguir como é a sintaxe geral:
 
 unalias [nome_do_alias]
 
-### 38. Comando su
+#### 38. Comando su
 O comando switch user, ou su, permite executar um programa como um usuário diferente. Ele altera a conta administrativa na sessão de login atual. Esse comando é especialmente útil para acessar o sistema por meio de SSH ou usar o gerenciador de exibição da GUI quando o usuário raiz não está disponível.
 
 Esta é a sintaxe geral do comando:
@@ -1668,7 +1680,7 @@ Aqui estão algumas que você pode usar:
 -s ou –shell permite especificar um ambiente de shell diferente para execução.
 -l ou –login executa um script de login para mudar para um nome de usuário diferente. Para executá-lo, é necessário digitar a senha do usuário.
 
-### 39. Comando htop
+#### 39. Comando htop
 O comando htop é um programa interativo que monitora os recursos do sistema e os processos do servidor em tempo real. Ele está disponível na maioria das distribuições Linux e você pode instalá-lo usando o gerenciador de pacotes padrão.
 
 Em comparação com o comando top, o htop tem muitos aprimoramentos e recursos adicionais, como a operação com o mouse e indicadores visuais.
@@ -1683,7 +1695,7 @@ Você também pode adicionar opções, como:
 -C ou –no-color ativa o modo monocromático.
 -h ou –help exibe a mensagem de ajuda e sai.
 
-### 40. Comando ps
+#### 40. Comando ps
 O status do processo, ou comando ps, produz um snapshot de todos os processos em execução em seu sistema. Os resultados estáticos são obtidos dos arquivos virtuais no sistema de arquivos /proc.
 
 A execução do comando ps sem uma opção ou argumento listará os processos em execução no shell, juntamente com:
@@ -1699,4 +1711,4 @@ Aqui estão algumas opções que você pode usar:
 -A ou -e mostra todos os processos em execução.
 
 
-
+## WSL2 Windows
