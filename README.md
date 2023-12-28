@@ -79,7 +79,7 @@ A processar 'triggers' para man-db (2.11.2-3) ...
 > Enviar o email do usuário
 
 ```sh
-(14:25:43 on master ✭)──> git config --global user.email "lepinheiro100@terra.com.br"
+(14:25:43 on master ✭)──> git config --global user.email "email@provedor.com"
 ```
 
 > Verificar os dados de configuração para sair do terminal digitar q
