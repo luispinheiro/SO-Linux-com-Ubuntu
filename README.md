@@ -110,7 +110,7 @@ A processar 'triggers' para man-db (2.11.2-3) ...
 
 ```sh
 (16:13:30 on master ✭)──> cat ~/.ssh/id_ed25519.pub                                                           
-ssh-ed25519  lepinheiro100@terra.com.br
+ssh-ed25519  email@provedor.com.br
 ```
 
 ### Comandos GIT nicialização local
