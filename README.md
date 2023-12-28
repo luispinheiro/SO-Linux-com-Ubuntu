@@ -73,7 +73,7 @@ A processar 'triggers' para man-db (2.11.2-3) ...
 > Enviar o nome do usuário
 
 ```sh
-(14:12:23 on master ✭)──> git config --global user.name "user Eduardo dos S Pinheiro"                                                     
+(14:12:23 on master ✭)──> git config --global user.name "Luis Eduardo dos S Pinheiro"                                                     
 ```
 
 > Enviar o email do usuário
@@ -1711,4 +1711,3 @@ Aqui estão algumas opções que você pode usar:
 -A ou -e mostra todos os processos em execução.
 
 
-## WSL2 Windows
