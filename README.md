@@ -251,7 +251,7 @@ A processar 'triggers' para debianutils (5.8-1) ...
 A processar 'triggers' para man-db (2.11.2-3) ...
 ```
 
-### Desinstalar o ZSH
+### Desinstalação do ZSH
 
 ```sh
 $ sudo apt autoremove zsh
@@ -305,16 +305,106 @@ Before you scream Oh My Zsh! look over the `.zshrc` file to select plugins, them
 
 ### Arquivo de Configuração mudar o Tema, Plugins autocomplete e outros... OhMyzsh
 
-> Para instalação do Tema e dos plugins pode-se apenas inserir as urls no arquivo de configuração, fechar e abrir o terminal que eles serão instalados ou clonar como abaixo.
+> Instalar o Zenit para facilitar a instalação de alguns plugins para o OHMyZSH
 
 ```
-# adicionar as linhas abaixo no arquivo .zshrc
+➜  ~ bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
+🔵INFO: About to setup zinit from zdharma-continuum/zinit (branch: main - commit: N/A) to /home/lesp/.local/share/zinit/zinit.git
+🔵INFO: Fetching git-process-output.zsh from https://raw.githubusercontent.com/zdharma-continuum/zinit/main/share/git-process-output.zsh
+✅SUCCESS: Download finished!
+🔵INFO: Installing zinit to  /home/lesp/.local/share/zinit/zinit.git
+Cloning into 'zinit.git'...
+⠼ ███████████ OBJ: 100, PACK: 20771/20771, COMPR: 100%, REC: 100%, RES: 100%
+✅SUCCESS: Checked out branch main
+✅SUCCESS: Zinit succesfully installed to  /home/lesp/.local/share/zinit/zinit.git
+🔵INFO: Zinit Version: v3.12.1-10-g9cf5b171
+🔵INFO: Updating /home/lesp/.zshrc (10 lines of code, at the bottom)
+ Would you like to add 4 useful plugins - the most useful annexes (Zinit extensions that add new functions-features to the plugin manager) to the zshrc as well? It will be the following snippet:
+
+# Load a few important annexes, without Turbo
+# (this is currently required for annexes)
+zinit light-mode for \
+    zdharma-continuum/zinit-annex-as-monitor \
+    zdharma-continuum/zinit-annex-bin-gem-node \
+    zdharma-continuum/zinit-annex-patch-dl \
+    zdharma-continuum/zinit-annex-rust
+
+ Enter y/n and press Return: y
+🔵INFO: Installing annexes
+
+Downloading zdharma-continuum/zinit-annex-as-monitor…
+Cloning into '/home/lesp/.local/share/zinit/plugins/zdharma-continuum---zinit-annex-as-monitor'...
+⠼ ███████████ OBJ: 100, PACK: 403/403, COMPR: 100%, REC: 100%, RES: 100%
+==> Compiling z-a-readurl.plugin.zsh [OK]
+
+Downloading zdharma-continuum/zinit-annex-bin-gem-node…
+Cloning into '/home/lesp/.local/share/zinit/plugins/zdharma-continuum---zinit-annex-bin-gem-node'...
+⠴ ███████████ OBJ: 100, PACK: 672/672, COMPR: 100%, REC: 100%, RES: 100%
+==> Compiling z-a-bin-gem-node.plugin.zsh [OK]
+
+Downloading zdharma-continuum/zinit-annex-patch-dl…
+Cloning into '/home/lesp/.local/share/zinit/plugins/zdharma-continuum---zinit-annex-patch-dl'...
+⠼ ███████████ OBJ: 100, PACK: 174/174, COMPR: 100%, REC: 100%, RES: 100%
+==> Compiling z-a-patch-dl.plugin.zsh [OK]
+
+Downloading zdharma-continuum/zinit-annex-rust…
+Cloning into '/home/lesp/.local/share/zinit/plugins/zdharma-continuum---zinit-annex-rust'...
+⠼ ███████████ OBJ: 100, PACK: 220/220, COMPR: 100%, REC: 100%, RES: 100%
+==> Compiling z-a-rust.plugin.zsh [OK]
+✅SUCCESS: Done!
+
+🌻 Welcome!
+
+Now to get started you can check out the following:
+
+- The README section on the ice-modifiers:
+    🧊 https://github.com/zdharma-continuum/zinit#ice-modifiers
+- There's also an introduction to Zinit on the wiki:
+    📚 https://zdharma-continuum.github.io/zinit/wiki/INTRODUCTION/
+- The For-Syntax article on the wiki, which hilights some best practises:
+    📖 https://zdharma-continuum.github.io/zinit/wiki/For-Syntax/
+
+💁 Need help?
+- 💬 Get in touch with us on Gitter: https://gitter.im/zdharma-continuum
+- 🔖 Or on GitHub: https://github.com/zdharma-continuum
+removed '/tmp/tmp.6egwgjx7lt/git-process-output.zsh'
+removed directory '/tmp/tmp.6egwgjx7lt'
+```
+
+![Alt text](image-14.png)
+
+> Como o Zenit a instalação de plugins pode-se apenas inserir as urls no arquivo de configuração, fechar e abrir o terminal que eles serão instalados ou clonar como abaixo.
+
+> Abrir o arquivo de configurações do zsh no VSCode
+
+```
+code ~/.zshrc
+```
+![Alt text](image-13.png)
+
+```
+➜  ~ code ~/.zshrc
+Installing VS Code Server for x64 (0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2)
+Downloading: 100%
+Unpacking: 100%
+Unpacked 1530 files and folders to /home/lesp/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2.
+```
+
+> adicione as 3 linhas abaixo no final do arquivo .zshrc
+
+```
 zinit light zdharma-continuum/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 ```
+![Alt text](image-12.png)
 
-> Buscar no browser pelas palavras:<br/>
+![Alt text](image-11.png)
+
+> Fechar o terminal e reabrir novamente os plugins serão instalados automaticamente
+
+> Outra maneira de instalar os plugins clonando os repositórios dos plugins
+
 <mark>oh my zsh zsh autosuggestions and autocomplete</mark>
 
 >Themas: https://github.com/ohmyzsh/ohmyzsh/wiki/themes

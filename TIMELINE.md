@@ -648,3 +648,6 @@ https://www.tecmundo.com.br/linux/2031-a-historia-dos-sistemas-operacionais.htm
 https://www.techtudo.com.br/noticias/2022/09/conheca-a-historia-do-celular-e-sua-evolucao-com-o-passar-dos-anos.ghtml
 
 Alguns temas pesquisados foram fornecidos pelo ChatGPT.
+
+
+
