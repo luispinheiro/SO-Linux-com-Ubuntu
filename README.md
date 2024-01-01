@@ -195,7 +195,7 @@ git commit -m "First commit"
 ```
 
 ```sh
-17:56:41 on master)──> git status                                                                 
+(17:56:41 on master)──> git status                                                                 
 No ramo master
 nothing to commit, working tree clean
 ```
@@ -205,7 +205,7 @@ nothing to commit, working tree clean
 ![Alt text](img/image-20.png)
 
 ```sh
-(17:31:55 on main ✚)──> git push -u origin main                                                                                                                                      
+(17:31:55 on main ✚)──> git push -u origin main                                                     
 Enumerating objects: 22, done.
 Counting objects: 100% (22/22), done.
 Delta compression using up to 3 threads
@@ -303,9 +303,9 @@ Before you scream Oh My Zsh! look over the `.zshrc` file to select plugins, them
 
 ![Alt text](img/image-1.png)
 
-### Arquivo de Configuração mudar o Tema, Plugins autocomplete e outros... OhMyzsh
+### Arquivo de Configuração para inserir os Plugins autocomplete e outros com o OhMyzsh
 
-> Instalar o Zenit para facilitar a instalação de alguns plugins para o OHMyZSH
+> Instalar o Zenit gerenciador de plugins do Zsh. Zinit é um gerenciador de plugins do Zsh, flexível e rápido que permite aos usuários gerenciar e carregar facilmente plugins Zsh. 
 
 ```
 ➜  ~ bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
@@ -405,7 +405,7 @@ zinit light zsh-users/zsh-completions
 
 > Outra maneira de instalar os plugins clonando os repositórios dos plugins
 
-<mark>oh my zsh zsh autosuggestions and autocomplete</mark>
+<mark>oh my zsh autosuggestions and autocomplete</mark>
 
 >Themas: https://github.com/ohmyzsh/ohmyzsh/wiki/themes
 
