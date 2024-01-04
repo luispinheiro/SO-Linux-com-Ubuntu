@@ -2,6 +2,8 @@
 
 A história da computação é uma narrativa fascinante que abrange séculos de desenvolvimento, inovação e avanço tecnológico. Aqui estão alguns marcos importantes ao longo dessa jornada:
 
+Ábaco (3000 a.C.): O ábaco, um dispositivo de cálculo manual, foi o primeiro instrumento utilizado para realizar operações aritméticas. Ele foi amplamente utilizado em várias culturas antigas, como a Babilônia, a China e o Egito.
+
 Máquinas de Cálculo Mecânicas (séculos XVII-XIX): Blaise Pascal (1642) e Gottfried Wilhelm Leibniz (1673) desenvolveram calculadoras mecânicas rudimentares. Charles Babbage, no século XIX, projetou as "Máquinas Analíticas" e "Máquinas Diferenciais", consideradas os primeiros conceitos de computadores programáveis.
 
 Teoria da Computação (1930): O matemático britânico Alan Turing formulou a Máquina de Turing, um modelo teórico de um computador, que desempenhou um papel crucial na fundação da ciência da computação.

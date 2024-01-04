@@ -5,26 +5,26 @@
 ```
 wsl --install
 ```
-![Alt text](image-1.png)
+![Alt text](img/image-45.png)
 
 > Entrar no Microsoft Store
 
 > instalar a dstribuição Ubuntu
 
-![Alt text](image-4.png)
+![Alt text](img/image-47.png)
 
-![Alt text](image-3.png)
+![Alt text](img/image-46.png)
 
 > Para visualizar as distros instaladas no terminnal
 
 ```
 wsl -l -v
 ```
-![Alt text](image-5.png)
+![Alt text](img/image-48.png)
 
 > Para acessar a distro é preciso dar o nome de usuário e senha do usuário root.
 
-![Alt text](image.png)
+![Alt text](img/image-49.png)
 
 > Inserir os dados de configuração do Git
 
@@ -76,13 +76,13 @@ ssh-ed25519 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 [ssh-wsl-local](SSH-WSL.md)
 
-![Alt text](image-6.png)
+![Alt text](img/image-50.png)
 
-![Alt text](image-7.png)
+![Alt text](img/image-51.png)
 
-![Alt text](image-8.png)
+![Alt text](img/image-52.png)
 
-![Alt text](image-9.png)
+![Alt text](img/image-53.png)
 
 ## Instalação do ZSH
 
@@ -170,19 +170,19 @@ Before you scream Oh My Zsh! look over the `.zshrc` file to select plugins, them
 • Join our Discord community: Discord server
 • Get stickers, t-shirts, coffee mugs and more: Planet Argon Shop
 ```
-![Alt text](image-10.png)
+![Alt text](img/image-54.png)
 
 > Extensão WSL para utilizar o VSCode
 
-![Alt text](image-15.png)
+![Alt text](img/image-55.png)
 
 > A quina inferior direita na cor verde mostra que estamos conectados no WSL
 
-![Alt text](image-17.png)
+![Alt text](img/image-56.png)
 
 > Clicando no ícone lateral esquerdo com símbolo de monitor, vemos as distros e o Docker instalado.
 
-![Alt text](image-18.png)
+![Alt text](img/image-57.png)
 
 ## Plugins para OHMyZSH
 
@@ -237,9 +237,9 @@ Resolving deltas: 100% (309/309), done.
 plugins+=(zsh-nvm)
 ```
 
-![Alt text](image-19.png)
+![Alt text](img/image-58.png)
 
-![Alt text](image-20.png)
+![Alt text](img/image-59.png)
 
 ## Python no WSL
 
@@ -654,4 +654,4 @@ pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.10)
 ➜  ~ pip3.10 --version
 pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.10)
 ```
-![Alt text](image-23.png)
+![Alt text](img/image-60.png)

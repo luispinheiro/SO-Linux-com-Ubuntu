@@ -371,7 +371,7 @@ removed '/tmp/tmp.6egwgjx7lt/git-process-output.zsh'
 removed directory '/tmp/tmp.6egwgjx7lt'
 ```
 
-![Alt text](image-14.png)
+![Alt text](img/image-44.png)
 
 > Como o Zenit a instalação de plugins pode-se apenas inserir as urls no arquivo de configuração, fechar e abrir o terminal que eles serão instalados ou clonar como abaixo.
 
@@ -380,7 +380,7 @@ removed directory '/tmp/tmp.6egwgjx7lt'
 ```
 code ~/.zshrc
 ```
-![Alt text](image-13.png)
+![Alt text](img/image-43.png)
 
 ```
 ➜  ~ code ~/.zshrc
@@ -397,9 +397,9 @@ zinit light zdharma-continuum/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 ```
-![Alt text](image-12.png)
+![Alt text](img/image-42.png)
 
-![Alt text](image-11.png)
+![Alt text](img/image-41.png)
 
 > Fechar o terminal e reabrir novamente os plugins serão instalados automaticamente
 

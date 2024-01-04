@@ -1,6 +1,6 @@
 ## Instalação do OhMyPoshi para estilizar o terminal do Windows
 
-> Instalação do OhMyPoshi
+> Instalação do OhMyPoshi através do terminal com Winget
 
 ```
  winget install JanDeDobbeleer.OhMyPosh -s winget
@@ -13,7 +13,7 @@ Successfully verified installer hash
 Starting package install...
 Successfully installed
 ```
-![Alt text](image-24.png)
+![Alt text](img/image-63.png)
 
 > Após a instalação, fechar o terminal e reabrí-lo novamente
 
@@ -24,23 +24,23 @@ Successfully installed
 ```
 oh-my-posh font install --user
 ```
-![Alt text](image-25.png)
+![Alt text](img/image-64.png)
 
-![Alt text](image-26.png)
+![Alt text](img/image-65.png)
 
 > Fechar novamente e abri como administrador e seguir os passos das imagens abaixo
 
-![Alt text](image-27.png)
+![Alt text](img/image-66.png)
 
-![Alt text](image-28.png)
+![Alt text](img/image-67.png)
 
-![Alt text](image-29.png)
+![Alt text](img/image-68.png)
 
-![Alt text](image-30.png)
+![Alt text](img/image-69.png)
 
 > Pesonalizar com um thema desejado https://ohmyposh.dev/docs/themes
 
 > Erro de configuração
 
-![Alt text](image-31.png)
+![Alt text](img/image-70.png)
 

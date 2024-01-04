@@ -52,11 +52,12 @@ npm notice Run npm install -g npm@10.2.5 to update!
 npm notice
 ```
 > verificação da versão
+
 ```
 ➜  ~ pnpm --version
 8.13.1
 ```
-![Alt text](image-21.png)
+![Alt text](img/image-61.png)
 
 ```
 ➜  api-rest-node-typescript yarn init -y
@@ -66,7 +67,7 @@ success Saved package.json
 Done in 0.03s.
 ```
 
-![Alt text](image-22.png)
+![Alt text](img/image-62.png)
 
 ## Instalação do Express
 
