@@ -1,6 +1,7 @@
 # NodeJS, Typescript e React
 
 ## NodeJS
+
 > Instalação do Node com NVM a última versão estável "nvm install node"
 
 ```
@@ -13,11 +14,13 @@ Checksums matched!
 Now using node v21.5.0 (npm v10.2.4)
 Creating default alias: default -> node (-> v21.5.0)
 ```
+
 > Outras versões só digitar "nvm install <numero_da_versão>"
 
 ```
 nvm install 14.7.0 # or 16.3.0, 12.22.1, etc
 ```
+
 > Visualizar a versão do Node e NPM
 
 ```
@@ -34,6 +37,7 @@ v21.5.0
 ➜  ~ yarn --version
 1.22.19
 ```
+
 ## Instalação do PNPM
 
 > Instalação com NPM
@@ -51,12 +55,14 @@ npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.2.5
 npm notice Run npm install -g npm@10.2.5 to update!
 npm notice
 ```
+
 > verificação da versão
 
 ```
 ➜  ~ pnpm --version
 8.13.1
 ```
+
 ![Alt text](img/image-61.png)
 
 ```
@@ -125,7 +131,9 @@ info All dependencies
 └─ vary@1.1.2
 Done in 7.20s.
 ```
-## Instalação do Typescript e TSNode 
+
+## Instalação do Typescript e TSNode
+
 ```
 ➜  api-rest-node-typescript yarn add --dev typescript @types/express ts-node-dev
 yarn add v1.22.19
@@ -214,6 +222,7 @@ info All dependencies
 └─ yn@3.1.1
 Done in 15.35s.
 ```
+
 ## Instalação do Typescript e ts-node-dev
 
 ```sh
@@ -238,13 +247,13 @@ info All dependencies
 └─ typescript@5.3.3
 Done in 3.33s.
 ```
+
 ## Rodar o APP com ts-node-dev
 
 ```
-➜  api-rest-node-typescript yarn ts-node-dev ./src/index.ts 
+➜  api-rest-node-typescript yarn ts-node-dev ./src/index.ts
 yarn run v1.22.19
 $ /home/lesp/cursos-estudos/Diversos-web/Youtube/Lucas_Souza_Dev/git-versions/api-rest-node-typescript/node_modules/.bin/ts-node-dev ./src/index.ts
 [INFO] 23:16:02 ts-node-dev ver. 2.0.0 (using ts-node ver. 10.9.2, typescript ver. 5.3.3)
 App rodando!
 ```
-

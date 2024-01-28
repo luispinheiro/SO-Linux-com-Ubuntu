@@ -2,7 +2,7 @@
 
 ## A história e a linha do tempo da computação
 
-### [**Tudo sobre a computação**](TIMELINE.md)
+### [**História da computação**](TIMELINE.md)
 
 ## Instalação do ZSH, OhMyZSH, NodeJS e Docker no terminal Ubuntu
 
@@ -10,17 +10,17 @@
 
 ```sh
 sudo apt install curl
-[sudo] senha para user: 
+[sudo] senha para user:
 Lendo listas de pacotes... Pronto
 Construindo árvore de dependências... Pronto
-Lendo informação de estado... Pronto        
+Lendo informação de estado... Pronto
 Os NOVOS pacotes a seguir serão instalados:
   curl
 0 pacotes atualizados, 1 pacotes novos instalados, 0 a serem removidos e 1 não atualizados.
 É preciso baixar 216 kB de arquivos.
 Depois desta operação, 490 kB adicionais de espaço em disco serão usados.
 Obter:1 http://br.archive.ubuntu.com/ubuntu mantic-updates/main amd64 curl amd64 8.2.1-1ubuntu3.2 [216 kB]
-Baixados 216 kB em 8s (26,8 kB/s)                                                                                   
+Baixados 216 kB em 8s (26,8 kB/s)
 A seleccionar pacote anteriormente não seleccionado curl.
 (Lendo banco de dados ... 182309 ficheiros e diretórios atualmente instalados.)
 A preparar para desempacotar .../curl_8.2.1-1ubuntu3.2_amd64.deb ...
@@ -35,7 +35,7 @@ A processar 'triggers' para man-db (2.11.2-3) ...
 $ sudo apt install git
 Lendo listas de pacotes... Pronto
 Construindo árvore de dependências... Pronto
-Lendo informação de estado... Pronto        
+Lendo informação de estado... Pronto
 Os pacotes adicionais seguintes serão instalados:
   git-man liberror-perl
 Pacotes sugeridos:
@@ -47,9 +47,9 @@ Os NOVOS pacotes a seguir serão instalados:
 Depois desta operação, 24,0 MB adicionais de espaço em disco serão usados.
 Você quer continuar? [S/n] s
 Obter:1 http://br.archive.ubuntu.com/ubuntu mantic/main amd64 liberror-perl all 0.17029-2 [25,6 kB]
-Obter:2 http://br.archive.ubuntu.com/ubuntu mantic/main amd64 git-man all 1:2.40.1-1ubuntu1 [1.085 kB]              
+Obter:2 http://br.archive.ubuntu.com/ubuntu mantic/main amd64 git-man all 1:2.40.1-1ubuntu1 [1.085 kB]
 12% [2 git-man 303 kB/1.085 kB 28%]                                                               Obter:3 http://br.archive.ubuntu.com/ubuntu mantic/main amd64 git amd64 1:2.40.1-1ubuntu1 [3.583 kB]
-Baixados 4.694 kB em 3min 16s (23,9 kB/s)                                                                           
+Baixados 4.694 kB em 3min 16s (23,9 kB/s)
 A seleccionar pacote anteriormente não seleccionado liberror-perl.
 (Lendo banco de dados ... 182315 ficheiros e diretórios atualmente instalados.)
 A preparar para desempacotar .../liberror-perl_0.17029-2_all.deb ...
@@ -73,7 +73,7 @@ A processar 'triggers' para man-db (2.11.2-3) ...
 > Enviar o nome do usuário
 
 ```sh
-(14:12:23 on master ✭)──> git config --global user.name "Luis Eduardo dos S Pinheiro"                                                     
+(14:12:23 on master ✭)──> git config --global user.name "Luis Eduardo dos S Pinheiro"
 ```
 
 > Enviar o email do usuário
@@ -109,19 +109,19 @@ A processar 'triggers' para man-db (2.11.2-3) ...
 > Como mostrar a chave gerada pelo terminal
 
 ```sh
-(16:13:30 on master ✭)──> cat ~/.ssh/id_ed25519.pub                                                           
+(16:13:30 on master ✭)──> cat ~/.ssh/id_ed25519.pub
 ssh-ed25519  email@provedor.com.br
 ```
 
 ### Comandos GIT nicialização local
 
 ```sh
-$ git init --initial-branch=main                                    
+$ git init --initial-branch=main
 Repositório vazio Git inicializado em  /home/luis/linux/linux-primeiros-passos/.git/
 ```
 
 ```
- $ git status                                                  
+ $ git status
 No ramo main
 
 No commits yet
@@ -135,13 +135,12 @@ Arquivos não monitorados:
 nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
 ```
 
-
 ```sh
 (17:45:41 on master ✭)──> git add .
 ```
 
 ```sh
-(17:45:48 on master ✚)──> git status                                                                 
+(17:45:48 on master ✚)──> git status
 No ramo master
 
 No commits yet
@@ -170,7 +169,7 @@ Mudanças a serem submetidas:
 ```
 
 ```sh
-git commit -m "First commit"                                                                
+git commit -m "First commit"
 [master (root-commit) e691964] First commit
  19 files changed, 1178 insertions(+)
  create mode 100644 .gitignore
@@ -195,7 +194,7 @@ git commit -m "First commit"
 ```
 
 ```sh
-(17:56:41 on master)──> git status                                                                 
+(17:56:41 on master)──> git status
 No ramo master
 nothing to commit, working tree clean
 ```
@@ -205,7 +204,7 @@ nothing to commit, working tree clean
 ![Alt text](img/image-20.png)
 
 ```sh
-(17:31:55 on main ✚)──> git push -u origin main                                                     
+(17:31:55 on main ✚)──> git push -u origin main
 Enumerating objects: 22, done.
 Counting objects: 100% (22/22), done.
 Delta compression using up to 3 threads
@@ -221,10 +220,10 @@ branch 'main' set up to track 'origin/main'.
 
 ```sh
 $ sudo apt install zsh
-[sudo] senha para user: 
+[sudo] senha para user:
 Lendo listas de pacotes... Pronto
 Construindo árvore de dependências... Pronto
-Lendo informação de estado... Pronto        
+Lendo informação de estado... Pronto
 Os pacotes adicionais seguintes serão instalados:
   zsh-common
 Pacotes sugeridos:
@@ -236,8 +235,8 @@ Os NOVOS pacotes a seguir serão instalados:
 Depois desta operação, 19,1 MB adicionais de espaço em disco serão usados.
 Você quer continuar? [S/n] s
 Obter:1 http://br.archive.ubuntu.com/ubuntu mantic/main amd64 zsh-common all 5.9-5ubuntu1 [4.174 kB]
-23% [1 zsh-common 1.436 kB/4.174 kB 34%]                                                                             Obter:2 http://br.archive.ubuntu.com/ubuntu mantic/main amd64 zsh amd64 5.9-5ubuntu1 [808 kB]                       
-Baixados 4.982 kB em 2min 58s (28,1 kB/s)                                                                           
+23% [1 zsh-common 1.436 kB/4.174 kB 34%]                                                                             Obter:2 http://br.archive.ubuntu.com/ubuntu mantic/main amd64 zsh amd64 5.9-5ubuntu1 [808 kB]
+Baixados 4.982 kB em 2min 58s (28,1 kB/s)
 A seleccionar pacote anteriormente não seleccionado zsh-common.
 (Lendo banco de dados ... 180795 ficheiros e diretórios atualmente instalados.)
 A preparar para desempacotar .../zsh-common_5.9-5ubuntu1_all.deb ...
@@ -281,14 +280,14 @@ Using the Oh My Zsh template file and adding it to /home/user/.zshrc.
 Time to change your default shell to zsh:
 Do you want to change your default shell to zsh? [Y/n] y
 Changing your shell to /usr/bin/zsh...
-[sudo] senha para user: 
+[sudo] senha para user:
 Shell successfully changed to '/usr/bin/zsh'.
 
-         __                                     __   
-  ____  / /_     ____ ___  __  __   ____  _____/ /_  
- / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \ 
-/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / / 
-\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/  
+         __                                     __
+  ____  / /_     ____ ___  __  __   ____  _____/ /_
+ / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \
+/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / /
+\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/
                         /____/                       ....is now installed!
 
 
@@ -305,7 +304,7 @@ Before you scream Oh My Zsh! look over the `.zshrc` file to select plugins, them
 
 ### Arquivo de Configuração para inserir os Plugins autocomplete e outros com o OhMyzsh
 
-> Instalar o Zenit gerenciador de plugins do Zsh. Zinit é um gerenciador de plugins do Zsh, flexível e rápido que permite aos usuários gerenciar e carregar facilmente plugins Zsh. 
+> Instalar o Zenit gerenciador de plugins do Zsh. Zinit é um gerenciador de plugins do Zsh, flexível e rápido que permite aos usuários gerenciar e carregar facilmente plugins Zsh.
 
 ```
 ➜  ~ bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
@@ -380,6 +379,7 @@ removed directory '/tmp/tmp.6egwgjx7lt'
 ```
 code ~/.zshrc
 ```
+
 ![Alt text](img/image-43.png)
 
 ```
@@ -397,6 +397,7 @@ zinit light zdharma-continuum/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 ```
+
 ![Alt text](img/image-42.png)
 
 ![Alt text](img/image-41.png)
@@ -407,11 +408,11 @@ zinit light zsh-users/zsh-completions
 
 <mark>oh my zsh autosuggestions and autocomplete</mark>
 
->Themas: https://github.com/ohmyzsh/ohmyzsh/wiki/themes
+> Themas: https://github.com/ohmyzsh/ohmyzsh/wiki/themes
 
 > Plugins: https://gist.github.com/n1snt/454b879b8f0b7995740ae04c5fb5b7df
 
-![Alt text](img/image-4.png)  
+![Alt text](img/image-4.png)
 
 ![Alt text](img/image-3.png)
 
@@ -466,7 +467,7 @@ Escolher dentre as fontes que possuem a ligaturas.
 
 https://github.com/tonsky/FiraCode?tab=readme-ov-file
 
-### __Fira Code__
+### **Fira Code**
 
 Cascadia Code
 
@@ -483,7 +484,7 @@ mkdir ~/.fonts
 ```
 
 ```sh
-wget -P ~/.fonts 'https://github.com/ryanoasis/nerd-#/releases/download/v2.1.0/BitstreamVeraSansMono.zip' 
+wget -P ~/.fonts 'https://github.com/ryanoasis/nerd-#/releases/download/v2.1.0/BitstreamVeraSansMono.zip'
 ```
 
 ```sh
@@ -491,11 +492,11 @@ unzip ~/.fonts/BitstreamVeraSansMono.zip -d ~/.fonts
 ```
 
 ```sh
-(20:40:01)──> mkdir ~/.fonts                                  
+(20:40:01)──> mkdir ~/.fonts
 ```
 
 ```sh
-(21:45:23)──> wget -P ~/.fonts 'https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/BitstreamVeraSansMono.zip' 
+(21:45:23)──> wget -P ~/.fonts 'https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/BitstreamVeraSansMono.zip'
 
 --2023-12-22 21:45:50--  https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/BitstreamVeraSansMono.zip
 Resolvendo github.com (github.com)... 20.201.28.151
@@ -509,7 +510,7 @@ A requisição HTTP foi enviada, aguardando resposta... 200 OK
 Tamanho: 8238313 (7,9M) [application/octet-stream]
 Salvando em: ‘/home/luis/.fonts/BitstreamVeraSansMono.zip’
 
-BitstreamVeraSansMo 100%[===================>]   7,86M   586KB/s    em 14s     
+BitstreamVeraSansMo 100%[===================>]   7,86M   586KB/s    em 14s
 
 2023-12-22 21:46:05 (587 KB/s) - ‘/home/luis/.fonts/BitstreamVeraSansMono.zip’ salvo [8238313/8238313]
 ```
@@ -517,37 +518,37 @@ BitstreamVeraSansMo 100%[===================>]   7,86M   586KB/s    em 14s
 ```sh
 (21:46:05)──> unzip ~/.fonts/BitstreamVeraSansMono.zip -d ~/.fonts
 Archive:  /home/luis/.fonts/BitstreamVeraSansMono.zip
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Nerd Font Complete Mono Windows Compatible.ttf  
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Nerd Font Complete.ttf  
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Nerd Font Complete Mono.ttf  
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Nerd Font Complete Windows Compatible.ttf  
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Oblique Nerd Font Complete.ttf  
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Oblique Nerd Font Complete Mono Windows Compatible.ttf  
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Oblique Nerd Font Complete Mono.ttf  
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Oblique Nerd Font Complete Windows Compatible.ttf  
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Nerd Font Complete Mono.ttf  
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Nerd Font Complete Mono Windows Compatible.ttf  
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Nerd Font Complete Windows Compatible.ttf  
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Nerd Font Complete.ttf  
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Oblique Nerd Font Complete.ttf  
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Oblique Nerd Font Complete Mono.ttf  
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Oblique Nerd Font Complete Mono Windows Compatible.ttf  
-  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Oblique Nerd Font Complete Windows Compatible.ttf  
- ```
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Nerd Font Complete Mono Windows Compatible.ttf
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Nerd Font Complete.ttf
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Nerd Font Complete Mono.ttf
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Nerd Font Complete Windows Compatible.ttf
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Oblique Nerd Font Complete.ttf
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Oblique Nerd Font Complete Mono Windows Compatible.ttf
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Oblique Nerd Font Complete Mono.ttf
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Bold Oblique Nerd Font Complete Windows Compatible.ttf
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Nerd Font Complete Mono.ttf
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Nerd Font Complete Mono Windows Compatible.ttf
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Nerd Font Complete Windows Compatible.ttf
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Nerd Font Complete.ttf
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Oblique Nerd Font Complete.ttf
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Oblique Nerd Font Complete Mono.ttf
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Oblique Nerd Font Complete Mono Windows Compatible.ttf
+  inflating: /home/luis/.fonts/Bitstream Vera Sans Mono Oblique Nerd Font Complete Windows Compatible.ttf
+```
 
 ```sh
-(21:47:18)──> sudo apt install fonts-firacode 
-[sudo] senha para luis: 
+(21:47:18)──> sudo apt install fonts-firacode
+[sudo] senha para luis:
 Lendo listas de pacotes... Pronto
 Construindo árvore de dependências... Pronto
-Lendo informação de estado... Pronto        
+Lendo informação de estado... Pronto
 Os NOVOS pacotes a seguir serão instalados:
   fonts-firacode
 0 pacotes atualizados, 1 pacotes novos instalados, 0 a serem removidos e 7 não atualizados.
 É preciso baixar 1.514 kB de arquivos.
 Depois desta operação, 3.005 kB adicionais de espaço em disco serão usados.
 Obter:1 http://br.archive.ubuntu.com/ubuntu mantic/universe amd64 fonts-firacode all 6.2-2 [1.514 kB]
-Baixados 1.514 kB em 3s (542 kB/s)          
+Baixados 1.514 kB em 3s (542 kB/s)
 A seleccionar pacote anteriormente não seleccionado fonts-firacode.
 (Lendo banco de dados ... 185752 ficheiros e diretórios atualmente instalados.)
 A preparar para desempacotar .../fonts-firacode_6.2-2_all.deb ...
@@ -568,115 +569,114 @@ Resolving deltas: 100% (18/18), done.
 ```
 
 ```sh
-(17:45:08)──> code ~/.zshrc 
+(17:45:08)──> code ~/.zshrc
 ```
+
 > Mudar o tema para <mark>ZSH_THEME="powerlevel10k/powerlevel10k"</mark>
 
 ![Alt text](img/image-21.png)
 
 ![Alt text](img/image-39.png)
 
-
 ![Alt text](img/image-40.png)
-
 
 ### Estilizar a telas de configuração do terminal com Powerlevel10k
 
 ```
 $ p10k configure
 ```
-> Seguir os passos da imagem abaixo e escolher a configuração desejada, mostro minhas escolhas em cada etapa.
 
+> Seguir os passos da imagem abaixo e escolher a configuração desejada, mostro minhas escolhas em cada etapa.
 
 ![Alt text](img/image-22.png)
 
 ```
 y
-``` 
+```
 
 ![Alt text](img/image-23.png)
 
 ```
 y
-``` 
+```
 
 ![Alt text](img/image-24.png)
 
 ```
 y
-``` 
+```
 
 ![Alt text](img/image-25.png)
 
 ```
 y
-``` 
+```
 
 ![Alt text](img/image-26.png)
 
 ```
 3
-``` 
+```
 
 ![Alt text](img/image-27.png)
 
 ```
 1
-``` 
+```
 
 ![Alt text](img/image-28.png)
 
 ```
 1
-``` 
+```
 
 ![Alt text](img/image-29.png)
 
 ```
 2
-``` 
+```
 
 ![Alt text](img/image-30.png)
 
 ```
 1
-``` 
+```
 
 ![Alt text](img/image-31.png)
 
 ```
 2
-``` 
+```
 
 ![Alt text](img/image-32.png)
 
 ```
 2
-``` 
+```
 
 ![Alt text](img/image-33.png)
 
 ```
 2
-``` 
+```
 
 ![Alt text](img/image-34.png)
 
 ```
 n
-``` 
+```
 
 ![Alt text](img/image-35.png)
 
 ```
 1
-``` 
+```
 
 ![Alt text](img/image-36.png)
 
 ```
 y
-``` 
+```
 
 ![Alt text](img/image-37.png)
 
@@ -715,7 +715,7 @@ source ~/.zsh-nvm/zsh-nvm.plugin.zsh
 ```
 
 ```sh
-(12:26:41)──> git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm                                                                
+(12:26:41)──> git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
 Cloning into '/home/user/.oh-my-zsh/custom/plugins/zsh-nvm'...
 remote: Enumerating objects: 583, done.
 remote: Counting objects: 100% (57/57), done.
@@ -740,7 +740,7 @@ $ sudo code ~/.zshrc
 ![Alt text](img/image-9.png)
 
 ```sh
-(12:34:04)──> source ~/. zshrc                                                                 
+(12:34:04)──> source ~/. zshrc
 Installing nvm...
 Cloning into '/home/user/.nvm'...
 remote: Enumerating objects: 9279, done.
@@ -756,7 +756,7 @@ Resolving deltas: 100% (5968/5968), done.
 ```
 
 ```sh
-nvm install node                                                                   
+nvm install node
 Downloading and installing node v21.4.0...
 Downloading https://nodejs.org/dist/v21.4.0/node-v21.4.0-linux-x64.tar.xz...
 ##################################################################################################################################################################################### 100.0%
@@ -767,7 +767,7 @@ Creating default alias: default -> node (-> v21.4.0)
 ```
 
 ```sh
-(12:38:44)──> node --version                                                        
+(12:38:44)──> node --version
 v21.4.0
 ```
 
@@ -777,7 +777,7 @@ v21.4.0
 ```
 
 ```sh
-(12:40:17)──> nvm ls 
+(12:40:17)──> nvm ls
 ->      v21.4.0
 default -> node (-> v21.4.0)
 iojs -> N/A (default)
@@ -815,7 +815,7 @@ lts/iron -> v20.10.0 (-> N/A)
 > https://pnpm.io/pt/installation
 
 ```sh
-(18:50:21 on main ✹)──> npm install --g npm                                                                    
+(18:50:21 on main ✹)──> npm install --g npm
 added 1 package in 8s
 
 1 package is looking for funding
@@ -823,9 +823,9 @@ added 1 package in 8s
 ```
 
 ```sh
-(19:06:08 on main)──> pnpm --version                                                                                                               
+(19:06:08 on main)──> pnpm --version
 8.12.1
-``` 
+```
 
 ### Atalhos no VSCode
 
@@ -857,7 +857,6 @@ Na prática, para a maioria dos usuários, a distinção entre a pnpmCLI e o pnp
 <mark>==|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||=====|||===
 </mark>=<br/><br/>
 
-
 > Para acessar o shell do zsh no terminal, basta difitar o comando <mark>" zsh "</mark>
 
 ```sh
@@ -875,7 +874,7 @@ $ bash
 > Reload do terminal
 
 ```sh
-──> source ~/.zshrc  
+──> source ~/.zshrc
 ```
 
 ### Instalação do Docker Engine via terminal
@@ -887,8 +886,8 @@ https://docs.docker.com/engine/install/ubuntu/
 ![Alt text](/img/image-17.png)
 
 ```sh
-sudo apt update                                
-[sudo] senha para user: 
+sudo apt update
+[sudo] senha para user:
 Atingido:1 https://dl.google.com/linux/chrome/deb stable InRelease
 Obter:2 http://security.ubuntu.com/ubuntu mantic-security InRelease [109 kB]
 Atingido:3 http://br.archive.ubuntu.com/ubuntu mantic InRelease
@@ -902,15 +901,15 @@ Obter:10 http://br.archive.ubuntu.com/ubuntu mantic-updates/main amd64 Packages 
 Obter:11 http://br.archive.ubuntu.com/ubuntu mantic-updates/main Translation-en [62,7 kB]
 Obter:12 http://br.archive.ubuntu.com/ubuntu mantic-updates/universe amd64 Packages [92,0 kB]
 Obter:13 http://br.archive.ubuntu.com/ubuntu mantic-updates/universe Translation-en [33,7 kB]
-Baixados 948 kB em 4s (266 kB/s)     
+Baixados 948 kB em 4s (266 kB/s)
 Lendo listas de pacotes... Pronto
 Construindo árvore de dependências... Pronto
-Lendo informação de estado... Pronto        
+Lendo informação de estado... Pronto
 8 pacotes podem ser atualizados. Corra 'apt list --upgradable' para vê-los.
 ```
 
 ```sh
-(11:10:45)──> sudo install -m 0755 -d /etc/apt/keyrings      
+(11:10:45)──> sudo install -m 0755 -d /etc/apt/keyrings
 ```
 
 ```sh
@@ -918,28 +917,28 @@ Lendo informação de estado... Pronto
 ```
 
 ```sh
-(11:12:47)──> sudo chmod a+r /etc/apt/keyrings/docker.gpg    
+(11:12:47)──> sudo chmod a+r /etc/apt/keyrings/docker.gpg
 ```
 
 ```sh
-(11:13:25)──> echo \                                         
+(11:13:25)──> echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
   $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 Obter:1 https://download.docker.com/linux/ubuntu mantic InRelease [48,8 kB]
 Obter:2 https://download.docker.com/linux/ubuntu mantic/stable amd64 Packages [3.095 B]
-Atingido:3 http://br.archive.ubuntu.com/ubuntu mantic InRelease                
-Atingido:4 https://dl.google.com/linux/chrome/deb stable InRelease             
-Atingido:5 http://br.archive.ubuntu.com/ubuntu mantic-updates InRelease        
-Atingido:6 http://br.archive.ubuntu.com/ubuntu mantic-backports InRelease      
-Atingido:7 http://security.ubuntu.com/ubuntu mantic-security InRelease         
-Baixados 51,9 kB em 3s (19,2 kB/s)                     
+Atingido:3 http://br.archive.ubuntu.com/ubuntu mantic InRelease
+Atingido:4 https://dl.google.com/linux/chrome/deb stable InRelease
+Atingido:5 http://br.archive.ubuntu.com/ubuntu mantic-updates InRelease
+Atingido:6 http://br.archive.ubuntu.com/ubuntu mantic-backports InRelease
+Atingido:7 http://security.ubuntu.com/ubuntu mantic-security InRelease
+Baixados 51,9 kB em 3s (19,2 kB/s)
 Lendo listas de pacotes... Pronto
 (11:14:28)──> sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 Lendo listas de pacotes... Pronto
 Construindo árvore de dependências... Pronto
-Lendo informação de estado... Pronto        
+Lendo informação de estado... Pronto
 Os pacotes adicionais seguintes serão instalados:
   docker-ce-rootless-extras libslirp0 pigz slirp4netns
 Pacotes sugeridos:
@@ -960,7 +959,7 @@ Obter:6 https://download.docker.com/linux/ubuntu mantic/stable amd64 docker-ce-c
 Obter:7 https://download.docker.com/linux/ubuntu mantic/stable amd64 docker-ce amd64 5:24.0.7-1~ubuntu.23.10~mantic [22,6 MB]
 Obter:8 https://download.docker.com/linux/ubuntu mantic/stable amd64 docker-ce-rootless-extras amd64 5:24.0.7-1~ubuntu.23.10~mantic [9.034 kB]
 Obter:9 https://download.docker.com/linux/ubuntu mantic/stable amd64 docker-compose-plugin amd64 2.21.0-1~ubuntu.23.10~mantic [11,9 MB]
-Baixados 115 MB em 3s (34,0 MB/s)                   
+Baixados 115 MB em 3s (34,0 MB/s)
 A seleccionar pacote anteriormente não seleccionado pigz.
 (Lendo banco de dados ... 185493 ficheiros e diretórios atualmente instalados.)
 A preparar para desempacotar .../0-pigz_2.6-1_amd64.deb ...
@@ -1014,11 +1013,10 @@ A processar 'triggers' para libc-bin (2.38-1ubuntu6) ...
 As três partes principais de um comando são:
 
 > CommandName (nome). É a regra em si que você quer executar.
-Flag (opção). É um modificador para a operação do comando. Você pode incluí-lo no comando usando um hífen (-) ou dois (–).
-Argument (parâmetro). Serve para adicionar informações ou contexto ao comando.
+> Flag (opção). É um modificador para a operação do comando. Você pode incluí-lo no comando usando um hífen (-) ou dois (–).
+> Argument (parâmetro). Serve para adicionar informações ou contexto ao comando.
 
 NomeDoComando [opção/opções] [parâmetro(s)]
-
 
 VPS
 jul 21, 2023
@@ -1026,7 +1024,6 @@ jul 21, 2023
 Ariane G.
 
 https://www.hostinger.com.br/tutoriais/comandos-linux
-
 
 O Linux é uma família de sistemas operacionais Unix de código aberto, baseados no kernel Linux.
 
@@ -1071,6 +1068,7 @@ Antes de entrarmos na lista de principais comandos Linux, primeiro você precisa
 Embora os passos abaixo possam ser ligeiramente diferentes dependendo da distribuição que você estiver usando, você geralmente encontra a linha de comando na seção Utilities (Utilidades).
 
 #### 1. Comando pwd
+
 Use o comando pwd para encontrar o caminho para o diretório atual (da pasta) em que você está. O comando vai retornar um caminho completo (cheio), que é basicamente um caminho que começa com uma barra inclinada (/). Um exemplo de um caminho completo é /home/username.
 
 O comando pwd usa a seguinte sintaxe:
@@ -1083,11 +1081,12 @@ Ele tem duas opções aceitáveis:
 -P ou –physical imprime o caminho real do diretório atual.
 
 #### 2. Comando cd
+
 Para navegar pelos arquivos e diretórios Linux, use o comando cd. Ele requer ou um caminho completo ou o nome de um diretório, dependendo do diretório atual em que você estiver.
 
 Vamos dizer que você esteja em /home/username/Documents e quer ir para Photos, um subdiretório de Documents. Para fazer isso, simplesmente digite cd Photos.
 
-Outro cenário em que você quer mudar completamente de diretório, digamos, para /home/username/Movies. Nesse caso, você tem que digitar cd seguido pelo caminho absoluto do diretório.   
+Outro cenário em que você quer mudar completamente de diretório, digamos, para /home/username/Movies. Nesse caso, você tem que digitar cd seguido pelo caminho absoluto do diretório.
 
 Existem alguns ds que você pode usar para navegar mais rapidamente.:
 
@@ -1096,6 +1095,7 @@ Use cd ~[username] para acessar o diretório inicial de outro usuário.
 Use cd– (com um hífen) para mover para os diretórios anteriores.
 
 #### 3. Comando ls
+
 O comando ls é usado para visualizar conteúdos em um diretório. Por padrão, esse comando vai mostrar os conteúdos apenas do diretório atual em que você estiver.
 
 Se você quiser ver o conteúdo de outros diretórios, digite ls e, então, o caminho do diretório. Por exemplo, digite ls /home/username/Documents para ver os conteúdos de Documents.
@@ -1107,7 +1107,7 @@ ls -a vai mostrar todos os arquivos ocultos.
 ls -lh vai listar todos os tamanhos de arquivos em formatos fáceis, como MB, GB ou TB.
 
 ```sh
-(20:16:48)──> ls -a                                           
+(20:16:48)──> ls -a
  .                   linux                       Vídeos
  ..                  .local                      .viminfo
 'Área de trabalho'   Modelos                     .vscode
@@ -1121,7 +1121,7 @@ ls -lh vai listar todos os tamanhos de arquivos em formatos fáceis, como MB, GB
  .gnupg              .ssh
  Imagens             .sudo_as_admin_successful
 
-(20:45:37)──> ls -lh                                          
+(20:45:37)──> ls -lh
 total 40K
 drwxr-xr-x 2 user user 4,0K nov  2 22:31 'Área de trabalho'
 drwxr-xr-x 2 user user 4,0K nov  2 22:31  Documentos
@@ -1134,10 +1134,10 @@ drwxr-xr-x 2 user user 4,0K nov  2 22:31  Público
 drwx------ 8 user user 4,0K dez  9 22:15  snap
 drwxr-xr-x 2 user user 4,0K nov  2 22:31  Vídeos
 
-(20:45:50)──> ls                                              
+(20:45:50)──> ls
 'Área de trabalho'   Downloads   linux     Músicas   snap
  Documentos          Imagens     Modelos   Público   Vídeos
-(20:47:06)──> ls -R                                           
+(20:47:06)──> ls -R
 .:
 'Área de trabalho'   Downloads   linux     Músicas   snap
  Documentos          Imagens     Modelos   Público   Vídeos
@@ -1249,6 +1249,7 @@ Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
 ```
 
 #### 4. Comando cat
+
 O cat (abreviação para concatenar) é um dos comandos Linux mais usados. Ele é usado para visualizar, criar e relacionar arquivos. Para executar esse comando, digite cat seguido pelo nome do arquivo e sua extensão. Por exemplo: cat nomedoarquivo.txt.
 
 Aqui estão outras maneiras de usar o comando cat:
@@ -1258,6 +1259,7 @@ cat nomedoarquivo1.txt nomedoarquivo2.txt > nomedoarquivo3.txt junta dois arquiv
 tac nomedoarquivo.txt exibe o conteúdo do arquivo em ordem reversa.
 
 #### 5. Comando cp
+
 Use o comando cp para copiar arquivos ou diretórios e seu conteúdo. Abaixo, listamos alguns exemplos.
 
 Para copiar um arquivo do diretório atual para outro, digite cp seguido do nome do arquivo e do diretório de destino. Por exemplo:
@@ -1277,6 +1279,7 @@ Para copiar um diretório inteiro, passe o sinalizador -R antes de digitar o dir
 cp -R /home/username/Documents /home/username/Documents_backup
 
 #### 6. Comando mv
+
 O uso mais comum do comando mv é mover arquivos, mas ele também pode ser usado para renomear arquivos.
 
 Basta digitar mv seguido do nome do arquivo e do diretório de destino. Por exemplo, você deseja mover o arquivo nomedoarquivo.txt para o diretório /home/username/Documents:
@@ -1288,6 +1291,7 @@ Você também pode usar o comando mv para renomear um arquivo:
 mv nomedoarquivo_antigo.txt nome_novo.txt
 
 #### 7. Comando mkdir
+
 Use o comando mkdir para criar um ou vários diretórios de uma só vez e definir permissões para cada um deles. O usuário que executa esse comando deve ter o privilégio de criar uma nova pasta no diretório principal, caso contrário, poderá receber um erro de permissão negada.
 
 Aqui está a sintaxe básica:
@@ -1309,6 +1313,7 @@ O comando mkdir aceita muitas opções, como:
 -v imprime uma mensagem para cada diretório criado.
 
 #### 8. Comando rmdir
+
 Para excluir permanentemente um diretório vazio, use o comando rmdir. Lembre-se de que o usuário que executa esse comando deve ter privilégios sudo no diretório pai.
 
 Por exemplo, você deseja remover um subdiretório vazio chamado personal1 e sua pasta principal mydir:
@@ -1316,6 +1321,7 @@ Por exemplo, você deseja remover um subdiretório vazio chamado personal1 e sua
 rmdir -p mydir/personal1
 
 #### 9. Comando rm
+
 O comando rm é usado para excluir arquivos em um diretório. Certifique-se de que o usuário que executa esse comando tenha permissões de gravação.
 
 Lembre-se do local do diretório, pois isso apagará o(s) arquivo(s) permanentemente e não há como desfazer a ação.
@@ -1335,6 +1341,7 @@ Aqui estão algumas opções que você pode adicionar:
 -r exclui arquivos e diretórios recursivamente.
 
 #### 10. Comando touch
+
 O comando touch permite criar um arquivo vazio ou gerar e modificar um registro de data e hora na linha de comando do Linux.
 
 Por exemplo, digite o seguinte comando para criar um arquivo HTML chamado Web no diretório Documents:
@@ -1342,11 +1349,13 @@ Por exemplo, digite o seguinte comando para criar um arquivo HTML chamado Web no
 touch /home/username/Documents/Web.html
 
 #### 11. Comando locate
+
 Você pode o comando locate para localizar um arquivo, assim como você faz para procurar um arquivo no Windows. Além disso, usando o argumento -i junto com esse comando faz com que ele se torne insensível a maiúsculas ou minúsculas, permitindo que você pesquise por um arquivo mesmo sem saber exatamente o nome dele.
 
 Para procurar um arquivo que contém duas ou mais palavras, use um asterisco (*). Por exemplo, use o comando locate -i school*note para encontrar qualquer arquivo que tenha as palavras “school” e “note”, não importando se existem letras maiúsculas ou minúsculas.
 
 #### 12. Comando find
+
 Similar ao comando locate, o comando find ajuda você a procurar por arquivos. A diferença é que você usa o find para localizar arquivos dentro de um diretório específico.
 
 Como exemplo, digite find /home/ -name notes.txt para procurar por um arquivo chamado notes.txt dentro do diretório home e seus subdiretórios.
@@ -1357,17 +1366,19 @@ find -name nomedoarquivo.txt para localizar arquivos no diretório atual.
 find ./ -type d -name nomedodiretorio para procurar diretórios.
 
 #### 13. Comando grep
+
 Outro comando básico do Linux que merece ser citado é o grep. Ele permite que você encontre uma palavra pesquisando todo o conteúdo de um arquivo específico.
 
 Quando o comando grep encontra uma correspondência, ele imprime todas as linhas que contêm o padrão específico. Esse comando ajuda a filtrar arquivos de registro grandes.
 
 Por exemplo, se você deseja pesquisar a palavra blue (azul) no arquivo notepad.txt:
 
-grep blue notepad.txt 
+grep blue notepad.txt
 
 A saída do comando exibirá as linhas que contêm a palavra blue.
 
 #### 14. Comando sudo
+
 Correspondente a SuperUser Do, sudo é um dos comandos básicos mais populares do Linux. Ele permite executar tarefas que exigem permissões administrativas ou de root.
 
 Ao usar o sudo, o sistema solicitará que os usuários se autentiquem com uma senha. Em seguida, o sistema Linux registrará um registro de data e hora como um rastreador. Por padrão, todo usuário root pode executar comandos sudo por 15 minutos/sessão.
@@ -1385,6 +1396,7 @@ Você também pode adicionar uma opção, por exemplo:
 -h ou –host=host executa comandos no host.
 
 #### 15. Comando df
+
 Use o comando df para obter informações sobre o uso do espaço em disco do sistema, mostrado em porcentagem e quilobyte (KB). Esta é a sintaxe geral:
 
 df [opções] [arquivo]
@@ -1400,6 +1412,7 @@ df -k exibe o uso do sistema de arquivos em KBs.
 df -T mostra o tipo de sistema de arquivos em uma nova coluna.
 
 #### 16. Comando du
+
 Se você quiser verificar quanto de espaço um arquivo ou diretório ocupa, use o comando du. Você pode executar esse comando para identificar qual parte do sistema usa excessivamente o armazenamento do seu sistema.
 
 Lembre-se de que você deve especificar o caminho do diretório ao usar o comando du. Por exemplo, para verificar /home/user/Documents, digite:
@@ -1409,11 +1422,12 @@ du /home/user/Documents
 Adicionar um sinalizador ao comando du modificará a operação, por exemplo:
 
 -s oferece o tamanho total de uma pasta especificada.
--m fornece informações sobre pastas e arquivos em MB 
+-m fornece informações sobre pastas e arquivos em MB
 k exibe informações em KB.
 -h informa a data da última modificação das pastas e arquivos exibidos.
 
 #### 17. Comando head
+
 O comando head permite que você visualize as primeiras dez linhas de um texto. A adição de uma opção permite que você altere o número de linhas mostradas. O comando head também é usado para enviar dados canalizados para a CLI.
 
 Aqui está a sintaxe geral:
@@ -1431,6 +1445,7 @@ Abaixo estão algumas opções que você pode adicionar:
 -q ou –quiet não imprimirá cabeçalhos que especifiquem o nome do arquivo.
 
 #### 18. Comando tail
+
 O comando tail tem função similar ao comando head, mas mostrando as últimas 10 linhas de um arquivo de texto.
 
 Este é o formato geral:
@@ -1442,6 +1457,7 @@ Por exemplo, você deseja mostrar as últimas dez linhas do arquivo colors.txt:
 tail -n colors.txt
 
 #### 19. Comando diff
+
 O comando diff (diferença) compara o conteúdo de dois arquivos linha por linha. Depois de analisar esses arquivos, ele vai mostrar as linhas que não são comuns entre eles.
 
 Os programadores frequentemente usam este comando quando precisam fazer pequenas alterações em programas. Assim, eles não precisam reescrever o código inteiro.
@@ -1461,6 +1477,7 @@ Aqui estão algumas opções para adicionar:
 -b ignora espaços em branco como possíveis diferenças.
 
 #### 20. Comando tar
+
 O comando tar reúne vários arquivos em um arquivo TAR — um formato do Linux semelhante ao ZIP, com compactação opcional.
 
 Aqui está a sintaxe básica:
@@ -1478,6 +1495,7 @@ O comando tar aceita muitas opções, como:
 -u arquiva e adiciona a um arquivo existente.
 
 #### 21. Comando chmod
+
 O chmod é um comando que modifica as permissões de leitura, gravação e execução de um arquivo ou diretório. No Linux, cada arquivo está associado a três classes de usuários: proprietário, membro do grupo e outros.
 
 Aqui está a sintaxe básica:
@@ -1495,7 +1513,8 @@ O comando chmod oferece suporte a várias opções, incluindo:
 -v ou –verbose exibe um diagnóstico para cada arquivo processado.
 
 #### 22. Comando chown
-No Linux, todos os arquivos são de propriedade de um usuário específico. O comando chown permite alterar a propriedade de um arquivo, diretório ou link simbólico para um nome de usuário específico. 
+
+No Linux, todos os arquivos são de propriedade de um usuário específico. O comando chown permite alterar a propriedade de um arquivo, diretório ou link simbólico para um nome de usuário específico.
 
 Este é o formato básico:
 
@@ -1506,6 +1525,7 @@ Por exemplo, você deseja tornar o linuxuser2 o proprietário do arquivo filenam
 chown linuxuser2 filename.txt
 
 #### 23. Comando jobs
+
 Um job é um processo que iniciado pelo shell. O comando jobs exibirá todos os processos em execução juntamente com seus status. Lembre-se de que esse comando só está disponível nos shells csh, bash, tcsh e ksh.
 
 Essa é a sintaxe básica:
@@ -1521,19 +1541,21 @@ Aqui estão algumas opções que você pode usar:
 -p lista somente IDs de processos.
 
 #### 24. Comando kill
+
 Se você tem um programa que não está respondendo bem, você pode finalizá-lo manualmente pelo comando kill. Ele vai mandar um certo sinal ao aplicativo com mau funcionamento e instruir que ele seja encerrado sozinho logo na sequência.
 
 Existe um total de 64 avisos que você pode usar, mas, geralmente, as pessoas usam apenas 2 deles:
 
 SIGTERM (15) – pede que um programa pare de rodar e dá algum tempo para salvar todo o seu progresso. Se você não especificar o aviso quando executar o comando kill, é este aviso que será usado.
 SIGKILL (9) – força um programa a parar imediatamente, em que todo o progresso não salvo será perdido.
-Além de saber os avisos (sinais, notificações), você também precisa conhecer o número de identificação do processo (PID) do programa que você quer matar (kill). Se você não souber o PID, apenas execute o comando ps ux.  
+Além de saber os avisos (sinais, notificações), você também precisa conhecer o número de identificação do processo (PID) do programa que você quer matar (kill). Se você não souber o PID, apenas execute o comando ps ux.
 
 Depois de saber qual aviso você quer usar e o PID do programa, use a sintaxe abaixo:
 
 kill [signal option] PID.
 
 #### 25. Comando ping
+
 O comando ping é um dos comandos básicos do Linux mais usados para verificar se uma rede ou um servidor está acessível. Além disso, ele é usado para solucionar vários problemas de conectividade.
 
 Este é o formato geral:
@@ -1545,6 +1567,7 @@ Por exemplo, você quer saber se pode se conectar ao Google e medir seu tempo de
 ping google.com
 
 #### 26. Comando wget
+
 A linha de comando do Linux permite que você baixe arquivos da Internet usando o comando wget. Ele funciona em segundo plano, sem atrapalhar outros processos em execução.
 
 O comando wget baixa arquivos usando os protocolos HTTP, HTTPS e FTP. Ele pode executar downloads recursivos, que transferem partes de sites seguindo estruturas de diretórios e links, criando versões locais de páginas da web.
@@ -1558,6 +1581,7 @@ Por exemplo, digite o seguinte comando para baixar a versão mais recente do Wor
 wget https://wordpress.org/latest.zip
 
 #### 27. Comando uname
+
 O comando uname, que significa Unix Name, vai mostrar informações detalhadas sobre seu sistema Linux. Isso inclui o nome da máquina, do sistema operacional, do kernel e assim por diante.
 
 uname [opção]
@@ -1573,12 +1597,15 @@ Essas são algumas das opções que você pode usar:
 ```sh
 (12:04:17)──> sudo nano /etc/hostname
 ```
+
 ![Alt text](img/image-18.png)
 
 #### 28. Comando top
+
 Equivalente ao gerenciador de tarefas do Windows, o comando top vai mostrar uma lista de processos que estão em execução e o quanto de CPU cada processo usa. Ele é muito útil para monitorar o uso dos recursos do sistema, especialmente para saber qual processo deve ser encerrado por consumir muitos recursos. Basta digitar top na CLI para executá-lo.
 
 #### 29. Comando history
+
 Com o history, o sistema listará até 500 comandos executados anteriormente, permitindo que você os reutilize sem precisar digitá-los novamente. Lembre-se de que somente os usuários com privilégios sudo podem executar esse comando. A forma de execução desse comando também depende do shell do Linux que você usa.
 
 Para executá-lo, digite o comando abaixo:
@@ -1592,6 +1619,7 @@ Esse comando oferece suporte a várias opções, como:
 -a acrescenta linhas de histórico.
 
 #### 30. Comando man
+
 O comando man fornece um manual completo para todos comandos ou utilitários que podem ser executados no Terminal, incluindo o nome, a descrição e as opções.
 
 Ele consiste em nove seções:
@@ -1622,13 +1650,14 @@ Por exemplo, você deseja ver a seção 2 do manual do comando ls:
 man 2 ls
 
 #### 31. Comando echo
+
 O comando echo é um utilitário nativo que exibe uma linha de texto ou cadeia de caracteres (string) usando a saída padrão. Veja a seguir a sintaxe básica:
 
 echo [opção] [string]
 
 Por exemplo, você pode exibir o texto Hostinger Tutoriais digitando:
 
-echo “Hostinger Tutoriais” 
+echo “Hostinger Tutoriais”
 
 Esse comando oferece suporte a várias opções, como:
 
@@ -1640,7 +1669,8 @@ Esse comando oferece suporte a várias opções, como:
 -E exibe a opção padrão e desativa a interpretação dos escapes de barra invertida.
 
 #### 32. Comandos zip e unzip
-Use o comando zip para compactar seus arquivos em um arquivo ZIP, um formato universal comumente usado no Linux. Ele pode escolher automaticamente a melhor taxa de compactação. 
+
+Use o comando zip para compactar seus arquivos em um arquivo ZIP, um formato universal comumente usado no Linux. Ele pode escolher automaticamente a melhor taxa de compactação.
 
 O comando zip também é útil para arquivar arquivos e diretórios e reduzir o uso do disco.
 
@@ -1661,6 +1691,7 @@ Portanto, para descompactar um arquivo chamado archive.zip no diretório atual, 
 unzip archive.zip
 
 #### 33. Comando hostname
+
 Execute o comando hostname para saber o nome do host do sistema. Você pode executá-lo com ou sem uma opção. Aqui está a sintaxe geral:
 
 hostname [opção]
@@ -1675,7 +1706,8 @@ Por exemplo, digite o seguinte comando para saber o endereço IP de seu computad
 hostname -i
 
 #### 34. Comandos useradd e userdel
-O Linux é um sistema multiusuário, o que significa que mais de uma pessoa pode usá-lo simultaneamente. useradd é usado para criar uma nova conta, enquanto o comando passwd permite adicionar uma senha. Somente aqueles com privilégios de root ou sudo podem executar o comando useradd. 
+
+O Linux é um sistema multiusuário, o que significa que mais de uma pessoa pode usá-lo simultaneamente. useradd é usado para criar uma nova conta, enquanto o comando passwd permite adicionar uma senha. Somente aqueles com privilégios de root ou sudo podem executar o comando useradd.
 
 Quando você usa o comando useradd, ele realiza algumas alterações importantes:
 
@@ -1692,7 +1724,7 @@ passwd a_senha_escolhida
 
 Por exemplo, para adicionar uma nova pessoa chamada Paulo, digite o seguinte comando simultaneamente:
 
-useradd Paulo 
+useradd Paulo
 
 passwd 123456789
 
@@ -1701,6 +1733,7 @@ Para excluir uma conta de usuário, use o comando userdel:
 userdel nome_de_usuário
 
 #### 35. Comando apt-get
+
 O apt-get é uma ferramenta de linha de comando para lidar com as bibliotecas da Advanced Package Tool (APT) no Linux. Ele permite que você obtenha informações e pacotes de fontes autenticadas para gerenciar, atualizar, remover e instalar softwares e suas dependências.
 
 A execução do comando apt-get exige que você tenha privilégios sudo ou root.
@@ -1716,6 +1749,7 @@ upgrade instala a versão mais recente de todos os pacotes instalados.
 check atualiza o cache de pacotes e verifica dependências quebradas.
 
 #### 36. comandos nano, vi e jed ou VSCode
+
 O Linux permite que os usuários editem e gerenciem arquivos por meio de um editor de texto usando comandos como o nano, o vi ou o jed. O nano e o vi são nativos do sistema operacional, enquanto o jed precisa ser instalado.
 
 O comando nano denota palavras-chave e pode funcionar com a maioria dos idiomas. Para usá-lo, digite o seguinte comando:
@@ -1756,6 +1790,7 @@ Veja a seguir como é a sintaxe geral:
 unalias [nome_do_alias]
 
 #### 38. Comando su
+
 O comando switch user, ou su, permite executar um programa como um usuário diferente. Ele altera a conta administrativa na sessão de login atual. Esse comando é especialmente útil para acessar o sistema por meio de SSH ou usar o gerenciador de exibição da GUI quando o usuário raiz não está disponível.
 
 Esta é a sintaxe geral do comando:
@@ -1771,6 +1806,7 @@ Aqui estão algumas que você pode usar:
 -l ou –login executa um script de login para mudar para um nome de usuário diferente. Para executá-lo, é necessário digitar a senha do usuário.
 
 #### 39. Comando htop
+
 O comando htop é um programa interativo que monitora os recursos do sistema e os processos do servidor em tempo real. Ele está disponível na maioria das distribuições Linux e você pode instalá-lo usando o gerenciador de pacotes padrão.
 
 Em comparação com o comando top, o htop tem muitos aprimoramentos e recursos adicionais, como a operação com o mouse e indicadores visuais.
@@ -1786,6 +1822,7 @@ Você também pode adicionar opções, como:
 -h ou –help exibe a mensagem de ajuda e sai.
 
 #### 40. Comando ps
+
 O status do processo, ou comando ps, produz um snapshot de todos os processos em execução em seu sistema. Os resultados estáticos são obtidos dos arquivos virtuais no sistema de arquivos /proc.
 
 A execução do comando ps sem uma opção ou argumento listará os processos em execução no shell, juntamente com:
@@ -1799,5 +1836,3 @@ Aqui estão algumas opções que você pode usar:
 -T exibe todos os processos associados à sessão atual do shell.
 -u nome_de_usuário lista os processos associados a um usuário específico.
 -A ou -e mostra todos os processos em execução.
-
-

@@ -168,7 +168,7 @@ Depois do MS-DOS e do Windows, a Microsoft e a IBM estavam pensando em lançar u
 1987 - Windows 2.0
 Indisponível
 Código fechado
-Enquanto dava alguma atenção ao OS/2, a Microsoft ainda desenvolvia em paralelo o Windows 2.0. A nova versão do sistema começava a dar alguns passos para chegar ao que conhecemos hoje. Agora, as janelas podiam se sobrepor umas às outras e já existiam os recursos maximizar e  minimizar.
+Enquanto dava alguma atenção ao OS/2, a Microsoft ainda desenvolvia em paralelo o Windows 2.0. A nova versão do sistema começava a dar alguns passos para chegar ao que conhecemos hoje. Agora, as janelas podiam se sobrepor umas às outras e já existiam os recursos maximizar e minimizar.
 
 1988 - A/ROSE e System 6
 Indisponível
@@ -385,8 +385,6 @@ Atualizações em desenvolvimento
 Código aberto (com drivers proprietários)
 Anteriormente desenvolvido pela Android Inc., o Android foi adquirido pela Google ainda em 2005. De lá para cá, a gigante das buscas veio trabalhando para conquistar o mercado móvel. Hoje, o Android é o sistema portátil mais usado do mundo, sendo que ele vem ganhando destaque por ser pioneiro no lançamento de diversos recursos. A versão mais recente é a 4.3, que já traz suporte para o Open GL ES 3.0.
 
-
-
 2009 - WebOS
 ARM
 Disponível
@@ -409,7 +407,6 @@ Disponível
 Código fechado
 Depois de insistir longos anos no Windows Mobile (que era apenas uma versão mal-adaptada do sistema para desktop), a Microsoft remodelou seu sistema para portáteis. O Windows Phone conta com ícones grandes, tiles, um design muito limpo e compatibilidade com APIs modernas para a execução de jogos tridimensionais.
 
-
 (Fonte da imagem: Tecmundo/Baixaki)
 
 2010 - Bada
@@ -431,7 +428,6 @@ Disponível
 Código fechado (com componentes de código aberto)
 Aproveitando algumas características do iOS, a Apple evoluiu o sistema para computadores. No Lion, o Launchpad foi um dos grandes recursos que facilitou o acesso às aplicações. Outra novidade foi o salvamento automático do estado do computador e dos documentos.
 
-
 (Fonte da imagem: Reprodução/Apple)
 
 2012 - Tizen
@@ -447,7 +443,6 @@ Atualizações em desenvolvimento
 Código fechado
 Pensando em migrar para o setor dos tablets e revolucionar a forma como as pessoas usam os PCs, a Microsoft apostou em uma reformulação de seu sistema. Aproveitando elementos do Windows Phone, o novo Windows 8 trouxe um novo Menu Iniciar. Além disso, ele mantém a compatibilidade com os antigos programas e traz suporte para novos apps.
 
-
 (Fonte da imagem: Reprodução/Microsoft)
 
 2013 - Ubuntu Touch
@@ -461,7 +456,6 @@ ARM
 Em desenvolvimento
 Código aberto
 Depois de tantos anos trabalhando com navegadores, a Mozilla entra de cabeça no mercado mobile. O Firefox OS é um sistema enxuto focado em HTML5 que visa conquistar os consumidores que buscam smartphones mais baratos. Você pode conferir nossas primeiras impressões clicando aqui.
-
 
 (Fonte da imagem: Reprodução/Mozilla)
 
@@ -514,7 +508,7 @@ O Unix continua a ser uma influência significativa no desenvolvimento de sistem
 
 ### GNU Bash
 
-Acrônimo para "Bourne-Again SHellBash ou Shell foi idealizado por Steven Bourne em 1977. Anos depois, mais exatamente em 1984, quando o Projeto GNU precisava clonar o Unix, a equipe liderada por Brian Fox precisou de um shell. 
+Acrônimo para "Bourne-Again SHellBash ou Shell foi idealizado por Steven Bourne em 1977. Anos depois, mais exatamente em 1984, quando o Projeto GNU precisava clonar o Unix, a equipe liderada por Brian Fox precisou de um shell.
 GNU Bash ou simplesmente Bash é um interpretador de comandos, um entre os diversos tradutores entre o usuário e o sistema operacional conhecidos como shell. Acrônimo para "Bourne-Again SHell", o Bash é uma evolução retro-compatível muito mais interativa do Bourne Shell.
 
 ## SO Minix
@@ -650,6 +644,3 @@ https://www.tecmundo.com.br/linux/2031-a-historia-dos-sistemas-operacionais.htm
 https://www.techtudo.com.br/noticias/2022/09/conheca-a-historia-do-celular-e-sua-evolucao-com-o-passar-dos-anos.ghtml
 
 Alguns temas pesquisados foram fornecidos pelo ChatGPT.
-
-
-
