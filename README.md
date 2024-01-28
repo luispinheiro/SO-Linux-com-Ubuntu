@@ -2,7 +2,7 @@
 
 ## A história e a linha do tempo da computação
 
-### [**História da computação**](History.md)
+### [**Clique aqui**](History.md) para saber um sobre a História da computação
 
 ## Instalação do ZSH, OhMyZSH, NodeJS e Docker no terminal Ubuntu
 
