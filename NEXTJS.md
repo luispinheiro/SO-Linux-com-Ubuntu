@@ -45,7 +45,7 @@ Initialized a git repository.
 Success! Created nextjs at /home/lesp/courses-studies/miscellaneous-file/Youtube/Full_cycle/nextjs
 ```
 
-![Alt text](image-1.png)
+![Alt text](img/image-71.png)
 
 ```
 ➜  nextjs git:(main) npm run dev

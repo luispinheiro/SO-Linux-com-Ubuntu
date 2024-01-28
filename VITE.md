@@ -20,7 +20,7 @@ Ok to proceed? (y) y
     Others
 ```
 
-![Alt text](image.png)
+![Alt text](img/image-72.png)
 
 > Escolher o nome do projeto e qual a opção de variante escolher, nesse caso pode-se escolher qualquer uma, nesse caso será o Javascript.
 
