@@ -1,7 +1,8 @@
 # FIRST STEPS IN THE TERMINAL WITH UNUNTU LINUX
+
 ## A história e a linha do tempo da computação
 
-### [**História da computação**](TIMELINE.md)
+### [**História da computação**](History.md)
 
 ## Instalação do ZSH, OhMyZSH, NodeJS e Docker no terminal Ubuntu
 
