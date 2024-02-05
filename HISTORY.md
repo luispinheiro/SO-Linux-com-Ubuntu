@@ -4,9 +4,13 @@ A história da computação é uma narrativa fascinante que abrange séculos de 
 
 Ábaco (3000 a.C.): O ábaco, um dispositivo de cálculo manual, foi o primeiro instrumento utilizado para realizar operações aritméticas. Ele foi amplamente utilizado em várias culturas antigas, como a Babilônia, a China e o Egito.
 
+A evolução do processamento de dados de forma automática teve como ponto de partida o século XIX. Foram diversas tentativas para se construir aparelhos mecânicos capazes de efetuar operações matemáticas. Atualmente, esses aparelhos não são mais mecânicos, mas eletrônicos.
+
 Máquinas de Cálculo Mecânicas (séculos XVII-XIX): Blaise Pascal (1642) e Gottfried Wilhelm Leibniz (1673) desenvolveram calculadoras mecânicas rudimentares. Charles Babbage, no século XIX, projetou as "Máquinas Analíticas" e "Máquinas Diferenciais", consideradas os primeiros conceitos de computadores programáveis.
 
 Teoria da Computação (1930): O matemático britânico Alan Turing formulou a Máquina de Turing, um modelo teórico de um computador, que desempenhou um papel crucial na fundação da ciência da computação.
+
+O uso de eletricidade em computadores remonta ao século XIX. No entanto, o termo "computador elétrico" geralmente se refere aos computadores eletrônicos modernos, que começaram a surgir no século XX.
 
 Segunda Guerra Mundial (1939-1945): Durante a guerra, os britânicos desenvolveram a Colossus, a primeira máquina de computação eletrônica, para decifrar códigos alemães. Nos EUA, o ENIAC (Electronic Numerical Integrator and Computer) foi concluído em 1945, sendo o primeiro computador eletrônico de grande escala.
 
@@ -17,6 +21,10 @@ Desenvolvimento de Linguagens de Programação (década de 1950): Linguagens com
 Era dos Circuitos Integrados (década de 1960): A invenção dos circuitos integrados permitiu que muitos componentes eletrônicos fossem integrados em um único chip, aumentando ainda mais a potência dos computadores e reduzindo seu tamanho.
 
 Desenvolvimento dos Microprocessadores (década de 1970): A Intel lançou o primeiro microprocessador, o Intel 4004, em 1971, marcando o início da era dos computadores pessoais.
+
+Em 1972, no laboratório da empresa Bell Telephone Labs. Inc. (atual Alcatel- -Lucent), foi projetada a linguagem de programação de computadores C por Dennis M. Ritchie que a desenvolveu com o objetivo de utilizá-la na codificação da segunda versão do sistema operacional UNIX para a equipe de trabalho chefiada por Ken Thompson. Tempo depois, Brian W. Kernighan juntou-se ao projeto de ampliação da linguagem C.
+
+A primeira versão do sistema operacional UNIX foi escrita em linguagem Assembly para o computador DEC PDP-11, precursor dos atuais minicomputa- dores. A partir da segunda versão até hoje o UNIX é escrito com a linguagem C.
 
 Computadores Pessoais (década de 1980): O lançamento do IBM PC em 1981 popularizou os computadores pessoais. A Apple também lançou o Macintosh na mesma época.
 
@@ -130,7 +138,7 @@ Disponível
 Código fechado
 A Apple estava dominando, mas a Amiga entrou de cabeça nos negócios com seu sistema proprietário. Os computadores com AmigaOS inclusive chegaram ao Brasil. Eles eram equipados com processadores Motorola e eram bem diferentes de tudo o que existia.
 
-![Alt text](img/img-historia/image-2.png)
+![Alt text](img/img-historia/image-1.png)
 (Fonte da imagem: Reprodução/AmigaOS)
 
 Mesmo sendo um novato, em suas primeiras versões, o sistema já oferecia interface gráfica. Ele não devia muita coisa para os concorrentes, mas a corrida era difícil na época. Apesar de não ser um estouro de vendas, o AmigaOS existe até hoje e funciona em máquinas com arquitetura PowerPC.
@@ -182,8 +190,10 @@ Indisponível
 Código fechado
 Depois que saiu da Apple, Steve Jobs fundou a NeXT. Sua nova empresa desenvolveu o sistema NeXTSTEP, o qual era baseado no Unix e contava com códigos do BSD. O sistema já vinha com interface gráfica, um dock (tal qual o dos futuros sistemas da Apple), widgets 3D, comandos para arrastar itens e ícones totalmente coloridos. Esse foi o começo do OS X.
 
-![Alt text](img/img-historia/image-3.png)
+![Alt text](img/img-historia/image-2.png)
 (Fonte da imagem: Reprodução/Wikipedia)
+
+![alt text](image-2.png)
 
 1990 - Windows 3.0
 Indisponível
@@ -199,6 +209,8 @@ De início, o sistema de Linus Torvalds aproveitou bibliotecas e aplicações do
 
 ![Alt text](img/img-historia/image-4.png)
 (Fonte da imagem: Divulgação/Larry Ewing, Simon Budig, Anja Gerwinski)
+
+![alt text](image-3.png)
 
 O Linux continua em desenvolvimento constante, sendo que seu núcleo principal é atualizado para englobar novas tecnologias e melhorias. O principal destaque desse software é que ele somente evoluiu e não precisou se preocupar com interface gráfica e outros adicionais. Atualmente, o sistema está na versão 3.11.
 
@@ -263,6 +275,8 @@ O Windows 95 foi tão importante que acabou definindo alguns padrões. A forma c
 ![Alt text](img/img-historia/image-5.png)
 (Fonte da imagem: Reprodução/Wikipedia)
 
+![alt text](image-4.png)
+
 Depois de algumas atualizações, o Windows 95 passou a suportar a leitura de dispositivos USB, o navegador Internet Explorer (que jamais saiu do sistema da Microsoft) e outras funções. Este sistema foi o responsável por tornar o Windows o sistema mais usado do mundo.
 
 1996 - Rhapsody
@@ -292,6 +306,8 @@ Apesar de ser desconhecido por muitos, o Yellow Dog Linux é um sistema de códi
 ![Alt text](img/img-historia/image-6.png)
 (Fonte da imagem: Reprodução/Wikipedia)
 
+![alt text](image-5.png)
+
 Devido a sua arquitetura, o sistema precisa usar versões alternativas do Flash e de outros programas. Esse foi também um dos poucos sistemas Linux que funcionava perfeitamente no PlayStation 3. A última versão, lançada em 2012, ainda contava com o Kernel 2.6 do Linux.
 
 2000 - Windows 2000
@@ -316,6 +332,8 @@ Devido ao desastre do Windows ME, a Microsoft caprichou no Windows XP. Este foi,
 ![Alt text](img/img-historia/image-7.png)
 (Fonte da imagem: Reprodução/Wikipedia)
 
+![alt text](image-6.png)
+
 2001 - OS X
 Indisponível
 Código fechado
@@ -335,7 +353,7 @@ Entre tantas versões de Linux, uma, em específico, recebeu atenção especial 
 
 Além dessa funcionalidade, o Kurumin ficou famoso por trazer alguns recursos automáticos. O sistema contava com o “ClicaAki” (o Painel de Controle do Kurumin), que, na verdade, era uma loja simplificada que baixava e instalava os programas em poucos cliques.
 
-![Alt text](img/img-historia/image-8.png)
+![Alt text](img/img-historia/image-7.png)
 (Fonte da imagem: Reprodução/Wikipedia)
 
 Infelizmente, o Kurumin foi descontinuado em 2009. A última versão do sistema foi a NG 8, a qual era baseada no Ubuntu 8. Este foi um sistema que vai deixar saudades.
@@ -407,7 +425,7 @@ Disponível
 Código fechado
 Depois de insistir longos anos no Windows Mobile (que era apenas uma versão mal-adaptada do sistema para desktop), a Microsoft remodelou seu sistema para portáteis. O Windows Phone conta com ícones grandes, tiles, um design muito limpo e compatibilidade com APIs modernas para a execução de jogos tridimensionais.
 
-(Fonte da imagem: Tecmundo/Baixaki)
+![alt text](image-8.png)
 
 2010 - Bada
 ARM
@@ -428,7 +446,7 @@ Disponível
 Código fechado (com componentes de código aberto)
 Aproveitando algumas características do iOS, a Apple evoluiu o sistema para computadores. No Lion, o Launchpad foi um dos grandes recursos que facilitou o acesso às aplicações. Outra novidade foi o salvamento automático do estado do computador e dos documentos.
 
-(Fonte da imagem: Reprodução/Apple)
+![alt text](image-9.png)
 
 2012 - Tizen
 x86 e ARM
@@ -443,7 +461,7 @@ Atualizações em desenvolvimento
 Código fechado
 Pensando em migrar para o setor dos tablets e revolucionar a forma como as pessoas usam os PCs, a Microsoft apostou em uma reformulação de seu sistema. Aproveitando elementos do Windows Phone, o novo Windows 8 trouxe um novo Menu Iniciar. Além disso, ele mantém a compatibilidade com os antigos programas e traz suporte para novos apps.
 
-(Fonte da imagem: Reprodução/Microsoft)
+![alt text](image-10.png)
 
 2013 - Ubuntu Touch
 x86 e ARM
@@ -457,7 +475,7 @@ Em desenvolvimento
 Código aberto
 Depois de tantos anos trabalhando com navegadores, a Mozilla entra de cabeça no mercado mobile. O Firefox OS é um sistema enxuto focado em HTML5 que visa conquistar os consumidores que buscam smartphones mais baratos. Você pode conferir nossas primeiras impressões clicando aqui.
 
-(Fonte da imagem: Reprodução/Mozilla)
+![alt text](image-11.png)
 
 2013 - Xbox OS
 x86
