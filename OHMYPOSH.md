@@ -30,7 +30,7 @@ oh-my-posh font install --user
 
 >
 
-![alt text](image-42.png)
+![alt text](img/imagens/image-42.png)
 
 > Esse erro ocorre devido a não abrir não reabrir o terminal
 
@@ -58,15 +58,15 @@ oh-my-posh font install --user
 
 > Abrir a pasta 
 
-![alt text](image-39.png)
+![alt text](img/imagens/image-39.png)
 
-![alt text](image-38.png)
+![alt text](img/imagens/image-38.png)
 
-![alt text](image-37.png)
+![alt text](img/imagens/image-37.png)
 
 > Abrir o arquivo de configuração do VSCode
 
-![alt text](image-40.png)
+![alt text](img/imagens/image-40.png)
 
 > Inserir os seguintes dados
 
@@ -82,4 +82,23 @@ Exemplos:
 => >= <= <> => ->> := == === >>>
 !=(interrogação mais igual)
 
-![alt text](image-41.png)
+![alt text](img/imagens/image-41.png)
+
+## OHMyPosh esta em constantes mudanças
+
+> https://ohmyposh.dev/docs/installation/prompt
+
+![alt text](img/imagens/image-43.png)
+
+![alt text](img/imagens/image-44.png)
+
+> Perfil carregado
+
+![alt text](img/imagens/image-45.png)
+
+> Para customizar
+
+> https://ohmyposh.dev/docs/installation/customize
+
+![alt text](img/imagens/image-46.png)
+

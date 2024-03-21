@@ -4,17 +4,17 @@
 
 > [https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4#installing-the-msi-package](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4#installing-the-msi-package)
 
-![alt text](image-20.png)
+![alt text](img/imagens/image-20.png)
 
 > Outro método de instalação Wget
 
-![alt text](image-21.png)
+![alt text](img/imagens/image-21.png)
 
 # Temas, ações, atalhos e comandos
 
 [https://learn.microsoft.com/pt-br/windows/terminal/customize-settings/actions](https://learn.microsoft.com/pt-br/windows/terminal/customize-settings/actions)
 
-![alt text](image-22.png)
+![alt text](img/imagens/image-22.png)
 
 [https://learn.microsoft.com/pt-br/windows/terminal/](https://learn.microsoft.com/pt-br/windows/terminal/)
 
@@ -22,5 +22,5 @@
 
 [https://learn.microsoft.com/pt-br/training/modules/wsl-introduction/?source=recommendations]https://learn.microsoft.com/pt-br/training/modules/wsl-introduction/?source=recommendations)
 
-![alt text](image-23.png)
+![alt text](img/imagens/image-23.png)
 

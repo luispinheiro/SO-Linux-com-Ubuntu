@@ -74,11 +74,11 @@ The key's randomart image is:
 
 ```
 
-![alt text](image-33.png)
+![alt text](img/imagens/image-33.png)
 
 > Para visualizar a chave SSH
 
-![alt text](image-34.png)
+![alt text](img/imagens/image-34.png)
 
 ```sh
 ~$ ls -al ~/.ssh
@@ -108,13 +108,13 @@ ssh-ed25519 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 > https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
 
-![alt text](image.png)
+![alt text](img/imagens/image.png)
 
 ## Problema solucionado
 
-![alt text](image-2.png)
+![alt text](img/imagens/image-2.png)
 
-![alt text](image-1.png)
+![alt text](img/imagens/image-1.png)
 
 ## Instalação do ZSH
 
@@ -160,7 +160,7 @@ user.name=user Luis Eduardo dos S Pinheiro
 user.email=email@provedor.com
 ```
 
-![alt text](image-35.png)
+![alt text](img/imagens/image-35.png)
 
 
 ## Instalação do OhMyZSH
@@ -305,7 +305,7 @@ licodev@lesp:~$ zsh
 ```
 > NVM instalado
 
-![alt text](image-36.png)
+![alt text](img/imagens/image-36.png)
 
 ## Python no WSL
 
@@ -728,28 +728,28 @@ Na Microsoft Store ele é pago, no GitHub é gratuito.
 
 > [https://github.com/bostrot/wsl2-distro-manager](https://github.com/bostrot/wsl2-distro-manager)
 
-![alt text](image-30.png)
+![alt text](img/imagens/image-30.png)
 
 > [https://github.com/bostrot/wsl2-distro-manager/releases/tag/v1.8.11](https://github.com/bostrot/wsl2-distro-manager/releases/tag/v1.8.11)
 
 > Pra mim funcionou apenas a versão zip
 
-![alt text](image-27.png)
+![alt text](img/imagens/image-27.png)
 
 > Descompactar em uma pasta e clicar no arquivo
 
-![alt text](image-29.png)
+![alt text](img/imagens/image-29.png)
 
 > Software que ajuda a gerenciar as distribuições Linux
 
-![alt text](image-28.png)
+![alt text](img/imagens/image-28.png)
 
 > Comando no terminal
 
 ```sh
 wsl -l -v
 ```
-![alt text](image-31.png)
+![alt text](img/imagens/image-31.png)
 
 > Atualizando os respositório
 
@@ -757,13 +757,13 @@ wsl -l -v
 sudo apt update && upgrade
 ```
 
-![alt text](image-32.png)
+![alt text](img/imagens/image-32.png)
 
 
 ## Problemas de instalação do WSL
 
-![alt text](image-24.png)
+![alt text](img/imagens/image-24.png)
 
-![alt text](image-25.png)
+![alt text](img/imagens/image-25.png)
 
-![alt text](image-26.png)
+![alt text](img/imagens/image-26.png)
