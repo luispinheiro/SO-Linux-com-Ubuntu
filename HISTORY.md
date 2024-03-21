@@ -193,8 +193,6 @@ Depois que saiu da Apple, Steve Jobs fundou a NeXT. Sua nova empresa desenvolveu
 ![Alt text](img/img-historia/image-2.png)
 (Fonte da imagem: Reprodução/Wikipedia)
 
-![alt text](image-2.png)
-
 1990 - Windows 3.0
 Indisponível
 Código fechado
@@ -207,10 +205,8 @@ Finalmente, depois de vinte e tantos anos de história, nasceu o Linux. Apesar d
 
 De início, o sistema de Linus Torvalds aproveitou bibliotecas e aplicações do GNU. O curioso desse sistema é que ele não se popularizou como uma plataforma única. Desde o começo, Torvalds distribuiu o Kernel do sistema de forma gratuita, garantindo que diversos outros sistemas pudessem ser desenvolvidos e oferecer novas experiências para os usuários.
 
-![Alt text](img/img-historia/image-4.png)
+![Alt text](img/img-historia/image-3.png)
 (Fonte da imagem: Divulgação/Larry Ewing, Simon Budig, Anja Gerwinski)
-
-![alt text](image-3.png)
 
 O Linux continua em desenvolvimento constante, sendo que seu núcleo principal é atualizado para englobar novas tecnologias e melhorias. O principal destaque desse software é que ele somente evoluiu e não precisou se preocupar com interface gráfica e outros adicionais. Atualmente, o sistema está na versão 3.11.
 
@@ -272,10 +268,8 @@ Indisponível
 Código fechado
 O Windows 95 foi tão importante que acabou definindo alguns padrões. A forma como o desktop é organizado, a qual ainda é utilizada no Windows 7 e 8, o Menu Iniciar (que só foi removido na última versão do Windows), a barra de tarefas e o Windows Explorer foram novidades que facilitaram a utilização do sistema.
 
-![Alt text](img/img-historia/image-5.png)
+![Alt text](img/img-historia/image-4.png)
 (Fonte da imagem: Reprodução/Wikipedia)
-
-![alt text](image-4.png)
 
 Depois de algumas atualizações, o Windows 95 passou a suportar a leitura de dispositivos USB, o navegador Internet Explorer (que jamais saiu do sistema da Microsoft) e outras funções. Este sistema foi o responsável por tornar o Windows o sistema mais usado do mundo.
 
@@ -303,10 +297,8 @@ Como o próprio nome sugere, a Segunda Edição do Windows 98 veio para corrigir
 Disponível
 Apesar de ser desconhecido por muitos, o Yellow Dog Linux é um sistema de código aberto e livre que continua bem vivo. Essa versão do Pinguim é exclusiva para arquiteturas PowerPC. Ele utiliza boa parte do código do Red Hat e traz alguns softwares instalados por padrão.
 
-![Alt text](img/img-historia/image-6.png)
+![Alt text](img/img-historia/image-5.png)
 (Fonte da imagem: Reprodução/Wikipedia)
-
-![alt text](image-5.png)
 
 Devido a sua arquitetura, o sistema precisa usar versões alternativas do Flash e de outros programas. Esse foi também um dos poucos sistemas Linux que funcionava perfeitamente no PlayStation 3. A última versão, lançada em 2012, ainda contava com o Kernel 2.6 do Linux.
 
@@ -329,10 +321,8 @@ Indisponível (suporte acaba a partir de 2014)
 Código fechado
 Devido ao desastre do Windows ME, a Microsoft caprichou no Windows XP. Este foi, provavelmente, o sistema mais usado por todos. Ele teve sua interface completamente remodelada, trouxe uma série de novos recursos para redes, DirectX 8.1, suporte avançado para múltiplos usuários, novos recursos de segurança e muito mais. Esse sistema ganhou muitas atualizações.
 
-![Alt text](img/img-historia/image-7.png)
+![Alt text](img/img-historia/image-6.png)
 (Fonte da imagem: Reprodução/Wikipedia)
-
-![alt text](image-6.png)
 
 2001 - OS X
 Indisponível
@@ -425,7 +415,7 @@ Disponível
 Código fechado
 Depois de insistir longos anos no Windows Mobile (que era apenas uma versão mal-adaptada do sistema para desktop), a Microsoft remodelou seu sistema para portáteis. O Windows Phone conta com ícones grandes, tiles, um design muito limpo e compatibilidade com APIs modernas para a execução de jogos tridimensionais.
 
-![alt text](image-8.png)
+![Alt text](img/img-historia/image-8.png)
 
 2010 - Bada
 ARM
@@ -446,7 +436,7 @@ Disponível
 Código fechado (com componentes de código aberto)
 Aproveitando algumas características do iOS, a Apple evoluiu o sistema para computadores. No Lion, o Launchpad foi um dos grandes recursos que facilitou o acesso às aplicações. Outra novidade foi o salvamento automático do estado do computador e dos documentos.
 
-![alt text](image-9.png)
+![Alt text](img/img-historia/image-9.png)
 
 2012 - Tizen
 x86 e ARM
@@ -461,7 +451,7 @@ Atualizações em desenvolvimento
 Código fechado
 Pensando em migrar para o setor dos tablets e revolucionar a forma como as pessoas usam os PCs, a Microsoft apostou em uma reformulação de seu sistema. Aproveitando elementos do Windows Phone, o novo Windows 8 trouxe um novo Menu Iniciar. Além disso, ele mantém a compatibilidade com os antigos programas e traz suporte para novos apps.
 
-![alt text](image-10.png)
+![Alt text](img/img-historia/image-10.png)
 
 2013 - Ubuntu Touch
 x86 e ARM
@@ -475,7 +465,7 @@ Em desenvolvimento
 Código aberto
 Depois de tantos anos trabalhando com navegadores, a Mozilla entra de cabeça no mercado mobile. O Firefox OS é um sistema enxuto focado em HTML5 que visa conquistar os consumidores que buscam smartphones mais baratos. Você pode conferir nossas primeiras impressões clicando aqui.
 
-![alt text](image-11.png)
+![Alt text](img/img-historia/image-11.png)
 
 2013 - Xbox OS
 x86

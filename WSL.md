@@ -1,4 +1,12 @@
-## Como habilitar o WSL2 no Windows
+# Como habilitar o WSL2 no Windows
+
+> Ativar o recurso do Windows
+
+![alt text](img/image-74.png)
+
+![alt text](img/image-75.png)
+
+![alt text](img/image-76.png)
 
 > Pode ser instalado de duas maneiras, pelo terminal ou diretamente na Microsoft Store
 
@@ -6,6 +14,8 @@
 wsl --install
 ```
 ![Alt text](img/image-45.png)
+
+> [https://apps.microsoft.com/detail/9p9tqf7mrm4r?hl=pt-BR&gl=AX](https://apps.microsoft.com/detail/9p9tqf7mrm4r?hl=pt-BR&gl=AX)
 
 > Entrar no Microsoft Store
 
@@ -61,8 +71,14 @@ The key's randomart image is:
 |.   . . *..      |
 |         +.      |
 +----[SHA256]-----+
+
 ```
+
+![alt text](image-33.png)
+
 > Para visualizar a chave SSH
+
+![alt text](image-34.png)
 
 ```sh
 ~$ ls -al ~/.ssh
@@ -80,9 +96,25 @@ ssh-ed25519 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ![Alt text](img/image-51.png)
 
-![Alt text](img/image-52.png)
+![Alt text](img/image-73.png)
 
 ![Alt text](img/image-53.png)
+
+## Outra maneira para habilitar WSL
+
+![Alt text](img/image-52.png)
+
+## Update de solução para solucionar problemas na instalação do WSL
+
+> https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
+
+![alt text](image.png)
+
+## Problema solucionado
+
+![alt text](image-2.png)
+
+![alt text](image-1.png)
 
 ## Instalação do ZSH
 
@@ -127,6 +159,9 @@ zsh 5.8.1 (x86_64-ubuntu-linux-gnu)
 user.name=user Luis Eduardo dos S Pinheiro
 user.email=email@provedor.com
 ```
+
+![alt text](image-35.png)
+
 
 ## Instalação do OhMyZSH
 
@@ -212,7 +247,15 @@ zsh-autocomplete plugin
 ```
 git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
 ```
-Inserir no arquivo .zshrc em plugin os dados
+```sh
+➜  ~ code ~/.zshrc
+Installing VS Code Server for x64 (863d2581ecda6849923a2118d93a088b0745d9d6)
+Downloading: 100%
+Unpacking: 100%
+Unpacked 1538 files and folders to /home/licodev/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6.
+```
+
+> Inserir no arquivo .zshrc em plugin os dados
 
 ```
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)
@@ -240,6 +283,29 @@ plugins+=(zsh-nvm)
 ![Alt text](img/image-58.png)
 
 ![Alt text](img/image-59.png)
+
+```sh
+➜  ~ source ~/.zshrc
+Installing nvm...
+Cloning into '/home/licodev/.nvm'...
+remote: Enumerating objects: 9308, done.
+remote: Counting objects: 100% (2094/2094), done.
+remote: Compressing objects: 100% (216/216), done.
+remote: Total 9308 (delta 1981), reused 1912 (delta 1877), pack-reused 7214
+Receiving objects: 100% (9308/9308), 3.61 MiB | 9.79 MiB/s, done.
+Resolving deltas: 100% (5986/5986), done.
+```
+
+Altenar entre Bash e zsh
+
+```sh
+➜  ~ bash
+licodev@lesp:~$ zsh
+➜  ~
+```
+> NVM instalado
+
+![alt text](image-36.png)
 
 ## Python no WSL
 
@@ -655,3 +721,49 @@ pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.10)
 pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.10)
 ```
 ![Alt text](img/image-60.png)
+
+## Software WSL Manager
+
+Na Microsoft Store ele é pago, no GitHub é gratuito.
+
+> [https://github.com/bostrot/wsl2-distro-manager](https://github.com/bostrot/wsl2-distro-manager)
+
+![alt text](image-30.png)
+
+> [https://github.com/bostrot/wsl2-distro-manager/releases/tag/v1.8.11](https://github.com/bostrot/wsl2-distro-manager/releases/tag/v1.8.11)
+
+> Pra mim funcionou apenas a versão zip
+
+![alt text](image-27.png)
+
+> Descompactar em uma pasta e clicar no arquivo
+
+![alt text](image-29.png)
+
+> Software que ajuda a gerenciar as distribuições Linux
+
+![alt text](image-28.png)
+
+> Comando no terminal
+
+```sh
+wsl -l -v
+```
+![alt text](image-31.png)
+
+> Atualizando os respositório
+
+```sh
+sudo apt update && upgrade
+```
+
+![alt text](image-32.png)
+
+
+## Problemas de instalação do WSL
+
+![alt text](image-24.png)
+
+![alt text](image-25.png)
+
+![alt text](image-26.png)
