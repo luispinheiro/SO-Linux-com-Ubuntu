@@ -2,6 +2,8 @@
 
 > https://www.virtualbox.org/wiki/Downloads
 
+https://www.youtube.com/watch?v=tkCz4Y6xJcI&list=PLVwomQzHETUFakHw0sab-Axl47RUuZ3E8&index=2
+
 ## Criar uma VM Ubuntu
 
 ![alt text](image.png)
